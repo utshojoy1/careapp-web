@@ -1416,7 +1416,7 @@ a.nav-item.login-button {
   align-items: center;
   gap: 40px 236px;
   font-family: 'Avenir LT Std', sans-serif;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
