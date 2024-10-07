@@ -745,13 +745,14 @@ html,body{
     max-width: 1332px;
     flex-direction: column;
     margin: 110px 60px 41px 33px;
-    align-items: center;
+    
   }
   
   @media (max-width: 1400px) {
     .features-section {
       max-width: 100%;
       margin: 260px 0px 0 0;
+      align-items: center;
     }
   }
   
