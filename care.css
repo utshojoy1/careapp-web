@@ -677,7 +677,7 @@ html,body{
   .hero-title {
     font-size: 72px;
     color: #272d39;
-    font-weight: 750;
+    font-weight: 850;
     line-height: 93px;
     text-align: center;
     align-self: center;
@@ -1181,14 +1181,14 @@ html,body{
   }
   
   .medication-title {
-    font-size: 4vw;
+    font-size: 14vw;
       color: #ffffff;
-      letter-spacing: -1.2px;
+      letter-spacing: 0.22px;
       margin-top: 50px;
       width: 80vw;
       font: 700 80px/92px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
       position: absolute;
-      bottom:5%;
+      top:52%;
       left:50%;
       transform: translateX(-50%);
   }
@@ -1197,11 +1197,11 @@ html,body{
       color: #2f80ed;
       letter-spacing: 0.22px;
       text-align: center;
-      margin-top: 129px;
-      padding-top: 100px ;
+      margin-top: 50px;
+      width: 80vw;
       font: 700 24px/1 'Avenir LT Std', sans-serif;
       position: absolute;
-      bottom:5%;
+      bottom:63%;
       left:50%;
       transform: translateX(-50%);
   }

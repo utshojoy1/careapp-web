@@ -87,7 +87,20 @@ var tl1 = gsap.timeline({
   scrollTrigger:{
     trigger:"#page1",
     scroller:"#main",
-    //markers:true,
+    // markers:true,
+    pin:true,
+    start:"bottom bottom",
+    scrub:1
+  }
+})
+tl1.to(".medication-section>.medication-title",{
+  top:"15%"
+})
+/*var tl1 = gsap.timeline({
+  scrollTrigger:{
+    trigger:"#page1",
+    scroller:"#main",
+    markers:true,
     pin:true,
     start:"top top",
     end: "bottom bottom",
@@ -95,13 +108,13 @@ var tl1 = gsap.timeline({
   }
 })
 tl1.to(".medication-section>h3",{
-  top:"4%",
+  bottom:"90%",
   
 })
 tl1.to(".medication-section>h2",{
-  top:"21%",
+  bottom:"80%",
   
-})
+})*/
 var tl3 = gsap.timeline({
   scrollTrigger:{
     trigger:"#page3",
