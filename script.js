@@ -76,11 +76,11 @@ var tl2 = gsap.timeline({
   }
 })
 tl2.to(".ai-section>h3",{
-  top:"-8%",
+  top:"-5%",
   
 })
 tl2.to(".ai-section>h2",{
-  top:"5%",
+  top:"8%",
   
 })
 var tl1 = gsap.timeline({
