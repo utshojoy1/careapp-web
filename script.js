@@ -76,11 +76,11 @@ var tl2 = gsap.timeline({
   }
 })
 tl2.to(".ai-section>h3",{
-  top:"-3%",
+  top:"-8%",
   
 })
 tl2.to(".ai-section>h2",{
-  top:"8%",
+  top:"5%",
   
 })
 var tl1 = gsap.timeline({
@@ -95,7 +95,7 @@ var tl1 = gsap.timeline({
   }
 })
 tl1.to(".medication-section>h3",{
-  top:"8%",
+  top:"4%",
   
 })
 tl1.to(".medication-section>h2",{
@@ -114,7 +114,7 @@ var tl3 = gsap.timeline({
   }
 })
 tl3.to(".care-section>h3",{
-  top:"-3%",
+  top:"-5%",
   
 })
 tl3.to(".care-section>h2",{
@@ -134,7 +134,7 @@ var tl4 = gsap.timeline({
   }
 })
 tl4.to(".recruit-section>h3",{
-  top:"-3%",
+  top:"-5%",
   
 })
 tl4.to(".recruit-section>h2",{
@@ -154,7 +154,7 @@ var tl5 = gsap.timeline({
   }
 })
 tl5.to(".hr-section>h3",{
-  top:"-3%",
+  top:"-6%",
   
 })
 tl5.to(".hr-section>h2",{
@@ -173,7 +173,7 @@ var tl6 = gsap.timeline({
   }
 })
 tl6.to(".who-benefits-section>h3",{
-  top:"-3%",
+  top:"-5%",
   
 })
 tl6.to(".who-benefits-section>h2",{
