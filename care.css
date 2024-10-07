@@ -851,9 +851,10 @@ html,body{
     margin-left: 20px;
   }
   
-  @media (max-width: 991px) {
+  @media (max-width: 1400px) {
     .feature-card-column {
       width: 100%;
+      margin-left:-55px
     }
   }
   
