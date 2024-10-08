@@ -756,7 +756,7 @@ html,body{
     width: 100%;
     max-width: 1332px;
     flex-direction: column;
-    margin: 210px 60px 41px 33px;
+    margin: 210px 100px 41px 33px;
     
   }
   
@@ -771,7 +771,7 @@ html,body{
   .features-title {
     color: #272d39;
     text-align: center;
-    width: 56vw;
+    width: 50vw;
     font: 750 80px/92px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
   }
   
