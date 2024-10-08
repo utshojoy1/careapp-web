@@ -97,6 +97,24 @@ html,body{
     transform: translateX(-50%);
     white-space: wrap;
 }
+@media (max-width: 428px) {
+  #page1 h1 {
+    max-width: 133%;
+    font: 700 50px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
+    padding-bottom: 100px;
+    width: 100vw;
+    text-align: center;
+  }
+}
+@media (max-width: 428px) {
+  #page1 h3 {
+    max-width: 133%;
+    font: 700 25px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
+    padding-bottom: 158px;
+    width: 100vw;
+    text-align: center;
+  }
+}
 #center-page1{
   position: absolute;
   top: 50%;
@@ -106,6 +124,7 @@ html,body{
   color: #fff;
   font-size: 2vw;
 }
+
 #page1>video{
     height: 120%;
     width: 100%;
@@ -118,6 +137,10 @@ html,body{
     width: 100vw;
     background-color: #fff;
     padding-top: 1vh;
+}
+@media (max-width: 428px) {
+  #page1-1 {
+    height: 102vh;
 }
 #page1-1 h1{
     font-size: 4vw;
@@ -782,7 +805,13 @@ html,body{
       align-items: center;
     }
   }
-  
+  @media (max-width: 428px) {
+    .features-section {
+      max-width: 100%;
+      margin: 565px 0px 0 0;
+      align-items: center;
+    }
+  }
   .features-title {
     color: #272d39;
     text-align: center;
@@ -870,6 +899,12 @@ html,body{
       margin-top: 40px;
     }
   }
+  @media (max-width: 428px) {
+    .feature-description {
+      margin: 0px 0px 0 0px;
+    }
+  }
+  
   
   .feature-card-column {
     display: flex;
@@ -883,6 +918,12 @@ html,body{
     .feature-card-column {
       width: 100%;
       margin-left:-55px
+    }
+  }
+  @media (max-width: 428px) {
+    .feature-card-column {
+      width: 100%;
+      margin-left: 0px
     }
   }
   
@@ -1033,6 +1074,11 @@ html,body{
       margin-top: 40px;
     }
   }
+  @media (max-width: 428px) {
+    .ai-section {
+      margin-top: 0px;
+    }
+  }
   
   .ai-title {
     font-size: 4vw;
@@ -1046,19 +1092,7 @@ html,body{
     left:50%;
     transform: translateX(-50%);
   }
-  .ai-title-2 {
-      font-size: 4vw;
-      color: #2f80ed;
-      letter-spacing: 0.22px;
-      text-align: center;
-      margin-top: 129px;
-      padding-top: 100px ;
-      font: 700 24px/1 'Avenir LT Std', sans-serif;
-      position: absolute;
-      bottom:5%;
-      left:50%;
-      transform: translateX(-50%);
-  }
+  
   @media (max-width: 1440px) {
     .ai-title {
       max-width: 100%;
@@ -1075,7 +1109,36 @@ html,body{
       line-height: 51px;
     }
   }
- 
+  @media (max-width: 428px) {
+    .ai-title {
+      max-width: 100%;
+      margin-top: 40px;
+      font-size: 32px;
+      line-height: 43px;
+    }
+  }
+
+  .ai-title-2 {
+    font-size: 4vw;
+    color: #2f80ed;
+    letter-spacing: 0.22px;
+    text-align: center;
+    margin-top: 129px;
+    padding-top: 100px ;
+    font: 700 24px/1 'Avenir LT Std', sans-serif;
+    position: absolute;
+    bottom:5%;
+    left:50%;
+    transform: translateX(-50%);
+}
+  @media (max-width: 428px) {
+    .ai-title-2 {
+      max-width: 100%;
+      margin-top: 80px;
+      font: 700 20px/1 'Avenir LT Std', sans-serif;
+      line-height: 51px;
+    }
+  }
   
   .ai-image {
     aspect-ratio: 1.64;
@@ -1110,6 +1173,12 @@ html,body{
       max-width: 100%;
       margin-top: 90px;
       padding-bottom: 28vh;
+    }
+  }@media (max-width: 428px) {
+    .ai-content {
+      max-width: 100%;
+      margin-top: 90px;
+      padding-bottom: 40vh;
     }
   }
   
@@ -1370,6 +1439,11 @@ html,body{
       margin-top: 40px;
     }
   }
+  @media (max-width: 428px) {
+    .care-section {
+      margin-top: 0px;
+    }
+  }
   
   .care-title {
     font-size: 4vw;
@@ -1383,6 +1457,22 @@ html,body{
       left:50%;
       transform: translateX(-50%);
   
+  }
+  @media (max-width: 991px) {
+    .care-title {
+      max-width: 100%;
+      margin-top: 40px;
+      font-size: 40px;
+      line-height: 51px;
+    }
+  }
+  @media (max-width: 428px) {
+    .care-title {
+      max-width: 100%;
+      margin-top: 130px;
+      font-size: 37px;
+      line-height: 42px;
+    }
   }
   .care-title-2 {
     font-size: 4vw;
@@ -1399,12 +1489,11 @@ html,body{
   
   }
   
-  @media (max-width: 991px) {
-    .care-title {
-      max-width: 100%;
-      margin-top: 40px;
-      font-size: 40px;
-      line-height: 51px;
+  
+  @media (max-width: 428px) {
+    .ccare-title-2 {
+      margin-top: 183px;
+      
     }
   }
   
@@ -1573,6 +1662,14 @@ html,body{
       line-height: 51px;
     }
   }
+  @media (max-width: 428px) {
+    .recruit-title {
+      max-width: 100%;
+      margin-top: 70px;
+      font-size: 40px;
+      line-height: 51px;
+    }
+  }
   
   .recruit-image {
     aspect-ratio: 1.64;
@@ -1737,7 +1834,15 @@ html,body{
   @media (max-width: 991px) {
     .hr-title {
       max-width: 100%;
-      margin-top: 40px;
+      margin-top: 60px;
+      font-size: 40px;
+      line-height: 51px;
+    }
+  }
+  @media (max-width: 428px) {
+    .hr-title {
+      max-width: 100%;
+      margin-top: 94px;
       font-size: 40px;
       line-height: 51px;
     }
@@ -1937,10 +2042,11 @@ html,body{
     flex-wrap: wrap;
   }
   
-  @media (max-width: 991px) {
+  @media (max-width: 1440px) {
     .who-benefits-content {
       max-width: 100%;
       margin-top: 40px;
+      padding-bottom: 0px;
     }
   }
   
@@ -1997,6 +2103,14 @@ html,body{
       padding: 0 20px;
     }
   }
+  @media (max-width: 428px) {
+    .who-benefits-button {
+        white-space: initial;
+        padding: 10px 20px;
+        align-items: center;
+        margin: 11px 55px;
+    }
+}
   
   .who-benefits-icon {
     aspect-ratio: 1;
@@ -2022,7 +2136,7 @@ html,body{
   @media (max-width: 991px) {
     .cta-section {
       max-width: 100%;
-      margin-top: 40px;
+      margin-top: 0px;
       padding: 100px 20px;
     }
   }
@@ -2088,6 +2202,12 @@ html,body{
       padding: 0 20px;
     }
   }
+  @media (max-width: 428px) {
+    .cta-button {
+      padding: 14px 25px;
+        margin-top: -14px;
+    }
+  }
   
   .cta-button-icon {
     aspect-ratio: 1;
@@ -2140,6 +2260,14 @@ html,body{
       margin-top: 40px;
     }
   }
+  @media (max-width: 428px) {
+    .clients-logos {
+      max-width: 100%;
+      margin-top: 40px;
+      align-items: center;
+      margin: center;
+    }
+  }
   
   .client-logo {
     aspect-ratio: 2.23;
@@ -2147,8 +2275,17 @@ html,body{
     object-position: center;
     width: 192px;
     align-self: stretch;
-    margin: auto 0;
+    margin: auto;
   }
+  @media (max-width: 428px) {
+    .clients-logo {
+      max-width: 100%;
+      margin-top: 40px;
+      align-items: center;
+      margin: center;
+    }
+  }
+  
   
   .clients-cta {
     border-radius: 24px;
@@ -2168,7 +2305,7 @@ html,body{
   
   @media (max-width: 991px) {
     .clients-cta {
-      padding: 0 20px;
+      padding: 10px 20px;
     }
   }
   
@@ -2267,7 +2404,7 @@ html,body{
   
   @media (max-width: 991px) {
     .demo-cta {
-      padding: 0 20px;
+      padding: 10px 20px;
     }
   }
   
@@ -2430,3 +2567,4 @@ html,body{
       margin-top: 40px;
     }
   }
+}
