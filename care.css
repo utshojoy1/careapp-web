@@ -691,7 +691,7 @@ html,body{
     line-height: 93px;
     text-align: center;
     align-self: center;
-    margin: -500px 170px 0px;
+    margin: -500px 220px 0px;
     animation: backInUp;
     animation-duration: 4s;
   }
@@ -710,7 +710,7 @@ html,body{
     font-weight: 400;
     line-height: 42px;
     text-align: center;
-    margin: 35px 282px;
+    margin: 35px 360px;
   }
   
   @media (max-width: 1440px) {
