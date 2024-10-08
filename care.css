@@ -33,7 +33,6 @@ html,body{
     padding: 0px 20px;
     height: 7vh;
     width: 50vw;
-    /* background-color: #ffffff; */
     color:#fff;
     position: absolute;
     top:0%;
@@ -558,6 +557,12 @@ html,body{
       padding-bottom: 100px;
     }
   }
+  @media (max-width: 428px) {
+    .hero-section {
+      max-width: 100%;
+      padding-bottom: 100px;
+    }
+  }
   
   .hero-background {
     position: absolute;
@@ -598,7 +603,16 @@ html,body{
     left: 50%;
     transform: translateX(-50%);
   }
-  
+  @media (max-width: 428px) {
+    .video {
+      height: 100%;
+      width: 70%;
+      object-fit: cover;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
   .logo {
     aspect-ratio: 4.03;
     object-fit: contain;
@@ -683,6 +697,7 @@ html,body{
       margin: 0px 0 10px;;
     }
   }
+
   
   .hero-title {
     font-size: 84px;
@@ -1047,9 +1062,9 @@ html,body{
   @media (max-width: 1440px) {
     .ai-title {
       max-width: 100%;
-      margin-top: 40px;
-      font-size: 45px;
-      line-height: 51px;
+      margin-top: 57px;
+      font-size: 60px;
+      line-height: 60px;
     }
   }
   @media (max-width: 991px) {
@@ -1846,7 +1861,7 @@ html,body{
     letter-spacing: 0.22px;
     text-align: center;
     margin-top: 154px;
-    padding-top: 350px ;
+    padding-top: 260px ;
     font: 700 24px/1 'Avenir LT Std', sans-serif;
     
   }
@@ -1862,7 +1877,7 @@ html,body{
       color: #272d39;
       letter-spacing: -1.2px;
       margin-top: 50px;
-      width: 80vw;
+      width: 100vw;
       font: 700 80px/92px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
       position: fixed;
       bottom:5%;
@@ -1891,6 +1906,7 @@ html,body{
       margin-top: 40px;
       font-size: 40px;
       line-height: 51px;
+      width: 80vw;
     }
   }
   
@@ -2113,7 +2129,7 @@ html,body{
     display: flex;
     margin-top: 65px;
     align-items: center;
-    gap: 40px 59px;
+    gap: 40px 40px;
     justify-content: flex-start;
     flex-wrap: wrap;
   }
@@ -2219,6 +2235,7 @@ html,body{
     font-weight: 700;
     line-height: 62px;
     text-align: center;
+    margin: 0 -1px;
   }
   
   @media (max-width: 991px) {
