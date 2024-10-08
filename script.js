@@ -89,12 +89,12 @@ var tl1 = gsap.timeline({
     scroller:"#main",
     // markers:true,
     pin:true,
-    start:"bottom bottom",
+    start:"top top",
     scrub:1
   }
 })
-tl1.to(".medication-section>.medication-title",{
-  top:"15%"
+tl1.to("#page1>#center-page1",{
+  top:"-40%"
 })
 /*var tl1 = gsap.timeline({
   scrollTrigger:{
