@@ -29,6 +29,7 @@ ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
 ScrollTrigger.refresh();
 
 }
+
 loco();
 
 
@@ -171,7 +172,24 @@ tl6.to(".who-benefits-section>h2",{
   
 })
 
+window.onload = (event) => { myFunction( event ) };
 
+function myFunction( event ) 
+{
+  alert("Screen Width is: " + screen.width);
+  
+ let myvid = document.getElementById("myvid");
+ 
+ //# if BIGGER THAN the 500 pixels
+ if ( screen.width > 500 ) { myvid.src = "video/-f9d3-4b0e-88f5-5cd23ac225ae.mp4"; }
+ 
+ //# if SMALLER THAN or EQUAL-TO the 428 pixels
+ if ( screen.width <= 428 ) { myvid.src = "video/"; }
+ 
+ //# load URL (for playback)
+ myvid.load();
+  
+}
 
 function canvas(){
 const canvas = document.querySelector("#page7>canvas");

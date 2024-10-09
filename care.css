@@ -733,7 +733,7 @@ html,body{
   @media (max-width: 1440px) {
     .hero-content {
       max-width: 100%;
-      margin: -85px 0px;;
+      margin: -115px 0px;;
     }
   }
 
@@ -849,12 +849,13 @@ html,body{
     font: 750 80px/92px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
   }
   
-  @media (max-width: 1400px) {
+  @media (max-width: 1440px) {
     .features-title {
       max-width: 100%;
-      font-size: 40px;
       line-height: 51px;
+      width: 75vw;
       text-align: center;
+      font: 750 65px/92px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
     }
   }
   
