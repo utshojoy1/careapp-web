@@ -128,7 +128,7 @@ html,body{
   #page1 h3 {
     max-width: 133%;
     font: 700 25px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
-    padding-bottom: 158px;
+    padding-bottom: 240px;
     width: 100vw;
     text-align: center;
   }
@@ -758,6 +758,14 @@ html,body{
       margin: -500px 86px 0px;
     }
   }
+  @media (max-width: 428px) {
+    .hero-title {
+      max-width: 100%;
+      font-size: 56px;
+      line-height: 52px;
+      margin: -500px 21px 0px;
+    }
+  }
   
   .hero-description {
     font-size: 24px;
@@ -771,6 +779,12 @@ html,body{
     .hero-description {
       max-width: 80%;
       margin: 35px 94px;
+    }
+  }
+  @media (max-width: 428px) {
+    .hero-description {
+      max-width: 100%;
+      margin: 35px 10px;
     }
   }
   
@@ -824,7 +838,7 @@ html,body{
   @media (max-width: 428px) {
     .features-section {
       max-width: 100%;
-      margin: 565px 0px 0 0;
+      margin: 410px 0px 0 0;
       align-items: center;
     }
   }
@@ -2028,6 +2042,23 @@ html,body{
       font-size: 40px;
       line-height: 51px;
       width: 80vw;
+    }
+  }
+  @media (max-width: 428px) {
+    .who-benefits-title-2 {
+      font-size: 4vw;
+    color: #2f80ed;
+    letter-spacing: 0.22px;
+    text-align: center;
+    margin-top: 129px;
+    padding-top: 100px ;
+    font: 700 24px/1 'Avenir LT Std', sans-serif;
+    position: absolute;
+    bottom:5%;
+    left:50%;
+    transform: translateX(-50%);
+    padding-top: 67px;
+    
     }
   }
   
