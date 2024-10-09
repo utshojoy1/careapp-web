@@ -652,6 +652,24 @@ html,body{
       transform: translateX(-50%);
     }
   }
+  .hero-video {
+    height: 100%;
+    width: 70%;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  @media (max-width: 428px) {
+    .hero-video {
+      height: 100%;
+      width: 70%;
+      object-fit: cover;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
   .logo {
     aspect-ratio: 4.03;
     object-fit: contain;
