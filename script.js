@@ -31,29 +31,6 @@ ScrollTrigger.refresh();
 }
 loco();
 
-/*gsap.to("#page>video",{
-    scrollTrigger:{
-        trigger:"#page>video",
-        start:"2 % top",
-        end:"bottom top",
-        // markers:true,
-        scroller:"#main",
-      
-      },
-      onStart:()=>{
-        document.querySelector("#page>video").play();
-      }
-    })
-    gsap.to("#page",{
-      scrollTrigger:{
-        trigger:"#page",
-        // markers:true,
-        start:"top top",
-        end:"bottom top",
-        scroller:"#main",
-        pin:true
-    }
-})*/
 
 gsap.to("#page-bottom",{
     scrollTrigger:{
@@ -83,18 +60,18 @@ tl2.to(".ai-section>h2",{
   top:"8%",
   
 })
-var tl1 = gsap.timeline({
+var tl7 = gsap.timeline({
   scrollTrigger:{
     trigger:"#page1",
     scroller:"#main",
     // markers:true,
     pin:true,
-    start:"bottom bottom",
+    start:"top top",
     scrub:1
   }
 })
-tl1.to(".medication-section>.medication-title",{
-  top:"15%"
+tl7.to("#page1>#center-page1",{
+  top:"-50%"
 })
 /*var tl1 = gsap.timeline({
   scrollTrigger:{
@@ -196,20 +173,6 @@ tl6.to(".who-benefits-section>h2",{
 
 
 
-
-var tl3 = gsap.timeline({
-  scrollTrigger:{
-    trigger:"#pagea",
-    scroller:"#main",
-    // markers:true,
-    pin:true,
-    start:"top top",
-    scrub:1
-  }
-})
-tl3.to("#pagea>#center-pagea",{
-  top:"-50%"
-})
 function canvas(){
 const canvas = document.querySelector("#page7>canvas");
 const context = canvas.getContext("2d");
