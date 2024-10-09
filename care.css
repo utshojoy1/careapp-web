@@ -86,17 +86,22 @@ html,body{
 }
 #page1 h1{
     font-size: 4vw;
-    color: #ffff;
+    color: #272d39;
     letter-spacing: -1.2px;
     margin-top: 50px;
+<<<<<<< HEAD
     width: 100vw;
+=======
+    width: auto;
+>>>>>>> parent of 52c733e (update)
     font: 700 80px/92px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
     position: absolute;
-    bottom:-24vh;
+    bottom:15%;
     left:50%;
     transform: translateX(-50%);
     white-space: wrap;
 }
+<<<<<<< HEAD
 @media (max-width: 1440px) {
   #page1 h1 {
     max-width: 133%;
@@ -143,12 +148,13 @@ html,body{
   font-size: 2vw;
 }
 
+=======
+>>>>>>> parent of 52c733e (update)
 #page1>video{
     height: 120%;
     width: 100%;
     object-fit: cover;
 }
-
 #page1-1{
     position: relative;
     height: 50vh;
@@ -1301,14 +1307,14 @@ html,body{
     }
   }
   
-  /*.medication-title {
+  .medication-title {
     font-size: 14vw;
       color: #ffffff;
       letter-spacing: 0.22px;
       margin-top: 50px;
       width: 80vw;
       font: 700 80px/92px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
-      position: absolute;S
+      position: absolute;
       top:52%;
       left:50%;
       transform: translateX(-50%);
@@ -1326,6 +1332,7 @@ html,body{
       left:50%;
       transform: translateX(-50%);
   }
+  
   @media (max-width: 991px) {
     .medication-title {
       max-width: 100%;
@@ -1334,7 +1341,7 @@ html,body{
       line-height: 51px;
     }
   }
-  */
+  
   .medication-image {
     aspect-ratio: 1.64;
     object-fit: contain;
