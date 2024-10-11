@@ -652,6 +652,24 @@ html,body{
       transform: translateX(-50%);
     }
   }
+.desktop-video {
+    display: block;
+}
+
+.mobile-video {
+    display: none;
+}
+
+/* Show mobile video only on smaller screens */
+@media (max-width: 768px) {
+    .desktop-video {
+        display: none;
+    }
+
+    .mobile-video {
+        display: block;
+    }
+}
   .hero-video {
     height: 100%;
     width: 70%;
