@@ -630,7 +630,7 @@ html,body{
     height: 100vh;
     overflow: hidden;
 }
-  .video {
+  video {
     height: 100%;
     width: 70%;
     object-fit: cover;
@@ -639,7 +639,7 @@ html,body{
     transform: translateX(-50%);
   }
   @media (max-width: 1440px) {
-    .video {
+    video {
       height: 100%;
       width: 70%;
       object-fit: cover;
@@ -649,7 +649,7 @@ html,body{
     }
   }
   @media (max-width: 428px) {
-    .video {
+    video {
       height: 100%;
       width: 70%;
       object-fit: cover;
