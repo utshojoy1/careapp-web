@@ -657,7 +657,7 @@ html,body{
       object-fit: cover;
       position: absolute;
       left: 50%;
-      transform: translateX(-50%);
+      transform: translateX(0%);
     }
   }*/
 .desktop-video {
@@ -665,7 +665,7 @@ html,body{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    position: inherit;
+    position: initial;
 }
 
 .mobile-video {
@@ -673,7 +673,7 @@ html,body{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    position: inherit;
+    position: initial;
 }
 
 /* Show mobile video only on smaller screens */
