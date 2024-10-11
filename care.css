@@ -630,7 +630,6 @@ html,body{
     height: 100vh;
     object-fit: cover;
     overflow: hidden;
-    transform: translateX(-50%);
 }
  video {
     height: 100%;
