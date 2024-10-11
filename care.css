@@ -638,7 +638,7 @@ html,body{
     left: 50%;
     transform: translateX(-50%);
   }
-  @media (max-width: 1440px) {
+ /*  @media (max-width: 1440px) {
     video {
       height: 100%;
       width: 70%;
@@ -657,7 +657,7 @@ html,body{
       left: 50%;
       transform: translateX(-50%);
     }
-  }
+  }*/
 .desktop-video {
     display: block;
 }
