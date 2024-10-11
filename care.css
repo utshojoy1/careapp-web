@@ -632,7 +632,7 @@ html,body{
     overflow: hidden;
     transform: translateX(-50%);
 }
- .video {
+ video {
     height: 100%;
     width: 70%;
     object-fit: cover;
