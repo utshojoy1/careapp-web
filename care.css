@@ -785,7 +785,13 @@ html,body{
   @media (max-width: 1440px) {
     .hero-content {
       max-width: 100%;
-      margin: -115px 0px;;
+      margin: -40px 0px;;
+    }
+  }
+ @media (max-width: 768px) {
+    .hero-content {
+      max-width: 100%;
+      margin: 10px 0px;;
     }
   }
 
