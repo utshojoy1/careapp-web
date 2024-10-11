@@ -661,10 +661,22 @@ html,body{
   }*/
 .desktop-video {
     display: block;
+    height: 100%;
+    width: 70%;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .mobile-video {
     display: none;
+    height: 100%;
+    width: 70%;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 /* Show mobile video only on smaller screens */
