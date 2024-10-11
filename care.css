@@ -800,6 +800,7 @@ html,body{
     margin: -500px 220px 0px;
     animation: backInUp;
     animation-duration: 4s;
+    z-index: 1;
   }
   
   @media (max-width: 1440px) {
@@ -825,6 +826,7 @@ html,body{
     line-height: 42px;
     text-align: center;
     margin: 35px 360px;
+    z-index: 1;
   }
   
   @media (max-width: 1440px) {
@@ -853,6 +855,7 @@ html,body{
     line-height: 1;
     justify-content: flex-start;
     padding: 14px 24px;
+    z-index: 1;
   }
   
   @media (max-width: 991px) {
@@ -868,6 +871,7 @@ html,body{
     width: 20px;
     align-self: stretch;
     margin: auto 0;
+    z-index: 1;
   }
 
   .features-section {
