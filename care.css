@@ -635,7 +635,6 @@ html,body{
     width: 70%;
     object-fit: cover;
     position: absolute;
-    left: 50%;
     transform: translateX(0%);
     z-index: -1;
     
@@ -1368,7 +1367,7 @@ html,body{
       margin-top: 40px;
     }
   }
-  
+ 
   /*.medication-title {
     font-size: 14vw;
       color: #ffffff;
