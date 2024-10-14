@@ -728,7 +728,12 @@ html,body{
     object-position: center;
     width: 234px;
     align-self: stretch;
-    margin: auto 0;
+    margin: auto 0px auto 340px;
+  }
+  @media (max-width: 1440px) {
+    .logo {
+      margin: auto 0px auto 95px;
+    }
   }
   
   .nav-menu {
