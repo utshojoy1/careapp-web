@@ -41,7 +41,7 @@ gsap.to("#page-bottom",{
       },
       opacity:0
 })
-var tl2 = gsap.timeline({
+var tl1 = gsap.timeline({
   scrollTrigger:{
     trigger:"#page2",
     scroller:"#main",
@@ -52,15 +52,15 @@ var tl2 = gsap.timeline({
     scrub:1
   }
 })
-tl2.to(".ai-section>h3",{
+tl1.to(".ai-section>h3",{
   top:"-5%",
   
 })
-tl2.to(".ai-section>h2",{
+tl1.to(".ai-section>h2",{
   top:"8%",
   
 })
-var tl7 = gsap.timeline({
+var tl2 = gsap.timeline({
   scrollTrigger:{
     trigger:"#page1",
     scroller:"#main",
@@ -70,28 +70,9 @@ var tl7 = gsap.timeline({
     scrub:1
   }
 })
-tl7.to("#page1>#center-page1",{
+tl2.to("#page1>#center-page1",{
   top:"-20%"
 })
-/*var tl1 = gsap.timeline({
-  scrollTrigger:{
-    trigger:"#page1",
-    scroller:"#main",
-    markers:true,
-    pin:true,
-    start:"top top",
-    end: "bottom bottom",
-    scrub:1
-  }
-})
-tl1.to(".medication-section>h3",{
-  bottom:"90%",
-  
-})
-tl1.to(".medication-section>h2",{
-  bottom:"80%",
-  
-})*/
 var tl3 = gsap.timeline({
   scrollTrigger:{
     trigger:"#page3",
