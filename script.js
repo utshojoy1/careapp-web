@@ -553,30 +553,6 @@ end: `80% top`,
 }
 canvas1();
 
-var tl4 = gsap.timeline({
-  scrollTrigger:{
-    trigger:"#page21",
-    scroller:"#main",
-    // markers:true,
-    pin:true,
-    start:"top top",
-    scrub:1
-  }
-})
-tl4.to("#page21>#troff",{
-  opacity:0,
-})
-
-var tl5 = gsap.timeline({
-  scrollTrigger:{
-      trigger:`#page23`,
-      start:`top top`,
-      scrub:1,
-      scroller:`#main`,
-      pin:true
-  }
-})
-
 
 tl5.to("#page23>#snroff",{
   opacity:0
@@ -592,3 +568,10 @@ gsap.to("#page25>img",{
   },
   opacity:1
 })
+
+$(function () {
+  $(document).scroll(function () {
+	  var $nav = $(".navbar-fixed-top");
+	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+	});
+});

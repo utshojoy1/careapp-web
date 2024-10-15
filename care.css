@@ -586,7 +586,15 @@ html,body{
     font-family: 'Avenir LT Std', sans-serif;
     color: #272d39;
   }
+  @import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css";
+  .navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
   
+  .navbar-fixed-top.scrolled .nav-link {
+    color:#555;
+  }
   .hero-section {
     position: relative;
     min-height: 20vh;
@@ -954,7 +962,7 @@ html,body{
   .features-title {
     color: #272d39;
     text-align: center;
-    width: 50vw;
+    width: 52vw;
     font: 750 80px/92px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
   }
   
@@ -2363,7 +2371,7 @@ html,body{
     border-radius: 24px;
     background-color: #2f80ed;
     display: flex;
-    margin-top: 36px;
+    margin-top: -10px;
     align-items: center;
     gap: 12px;
     font-size: 15px;
