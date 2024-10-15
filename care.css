@@ -735,7 +735,23 @@ html,body{
       margin: auto 0px auto 95px;
     }
   }
-  
+  @media (max-width: 768px) {
+    .logo {
+      margin: auto 0px auto 20px;
+    }
+  }
+  @media (max-width: 428px) {
+    .logo {
+      margin: auto 0px auto 70px;
+    }
+  }
+  .offcanvas-body {
+    display: flex;
+    flex-grow: 0;
+    padding: 0 0 0 321px;
+    overflow-y: visible;
+  }
+
   .nav-menu {
     align-self: stretch;
     display: flex;
@@ -802,19 +818,19 @@ html,body{
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    margin: -90px 0px;
+    margin: -150px 0px;
   }
   
   @media (max-width: 1440px) {
     .hero-content {
       max-width: 100%;
-      margin: -40px 0px;;
+      margin: -150px 0px;;
     }
   }
  @media (max-width: 768px) {
     .hero-content {
       max-width: 100%;
-      margin: 10px 0px;;
+      margin: 0px 0px;;
     }
   }
 
@@ -840,6 +856,14 @@ html,body{
       margin: -480px 86px 0px;
     }
   }
+  @media (max-width: 768px) {
+  .hero-title {
+    max-width: 100%;
+    font-size: 62px;
+    line-height: 52px;
+    margin: -750px 86px 0px;
+}
+}
   @media (max-width: 428px) {
     .hero-title {
       max-width: 100%;
@@ -2355,6 +2379,12 @@ html,body{
   @media (max-width: 991px) {
     .cta-button {
       padding: 0 20px;
+    }
+  }
+  @media (max-width: 768px) {
+    .cta-button {
+      padding: 10px 20px;
+      margin-top: 16px;
     }
   }
   @media (max-width: 428px) {
