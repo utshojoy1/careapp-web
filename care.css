@@ -173,7 +173,7 @@ html,body{
 
 @media (max-width: 428px) {
   #page1-1 {
-    height: 102vh;
+    height: 18vh;
 }}
 #page1-1 h1{
     font-size: 4vw;
@@ -968,7 +968,7 @@ html,body{
   @media (max-width: 428px) {
     .features-section {
       max-width: 100%;
-      margin: 190px 0px 0 0;
+      margin: 244px 0px 0 0;
       align-items: center;
     }
   }
@@ -1297,7 +1297,7 @@ html,body{
   @media (max-width: 428px) {
     .ai-title {
       max-width: 100%;
-      margin-top: 32px;
+      margin-top: 140px;
       font-size: 32px;
       line-height: 43px;
     }
@@ -1343,7 +1343,7 @@ html,body{
   @media (max-width: 428px) {
     .ai-image {
       max-width: 100%;
-      margin-top: 40px;
+      margin-top: 110px;
     }
   }
   
@@ -1368,7 +1368,7 @@ html,body{
   }@media (max-width: 428px) {
     .ai-content {
       max-width: 100%;
-      margin-top: 90px;
+      margin-top: 50px;
       padding-bottom: 40vh;
     }
   }
@@ -1555,10 +1555,16 @@ html,body{
     background-color: white;
   }
   
-  @media (max-width: 1400px) {
+  @media (max-width: 1440px) {
     .medication-content {
       max-width: 100%;
       margin-top: 50px;
+    }
+  }
+  @media (max-width: 428px) {
+    .medication-content {
+      max-width: 100%;
+      margin-top: -570px;
     }
   }
   
@@ -1573,6 +1579,14 @@ html,body{
   }
   
   @media (max-width: 991px) {
+    .medication-description-title {
+      max-width: 100%;
+      font-size: 40px;
+      line-height: 56px;
+      text-align: center;
+    }
+  }
+  @media (max-width: 428px) {
     .medication-description-title {
       max-width: 100%;
       font-size: 40px;
