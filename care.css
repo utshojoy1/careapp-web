@@ -84,6 +84,11 @@ html,body{
     width: 100vw;
     background-color: #fff;
 }
+@media(max-width: 428px) {
+  #page1{
+  margin: 600px 0px;
+
+}}
 #page1 h1{
     font-size: 4vw;
     color: #ffff;
@@ -736,7 +741,7 @@ html,body{
     object-position: center;
     width: 234px;
     align-self: stretch;
-    margin: auto 0px auto 340px;
+    margin: auto 0px auto 0px;
   }
   @media (max-width: 1440px) {
     .logo {
@@ -776,8 +781,13 @@ html,body{
       max-width: 100%;
     }
   }
-  .bgcolor.scrolled{
-    background-color: #000000 ;
+  #navbar {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+  }
+  
+  .scrolled {
+    background-color: #ffffff; /* Solid color when scrolled */
   }
   .nav-item {
     align-self: stretch;
@@ -1374,6 +1384,14 @@ html,body{
       line-height: 56px;
     }
   }
+  @media (max-width: 428px) {
+    .ai-description-title {
+      max-width: 100%;
+      font-size: 40px;
+      line-height: 56px;
+      text-align: center;
+    }
+  }
   
   .ai-description {
     display: flex;
@@ -1389,6 +1407,11 @@ html,body{
       max-width: 100%;
     }
   }
+  @media (max-width: 428px) {
+    .ai-description {
+      max-width: 80%;
+    }
+  }
   
   .ai-description-text {
     color: #272d39;
@@ -1401,6 +1424,12 @@ html,body{
   @media (max-width: 991px) {
     .ai-description-text {
       max-width: 100%;
+    }
+  }
+  @media (max-width: 428px) {
+    .ai-description-text {
+      max-width: 100%;
+      text-align: justify;
     }
   }
   
@@ -1421,10 +1450,16 @@ html,body{
   a.ai-cta {
     text-decoration: none;
   }
-  @media (max-width: 1400px) {
+  @media (max-width: 1440px) {
     .ai-cta {
       margin-top: 10px;
       padding: 12px 20px;
+    }
+  }
+  @media (max-width: 428px) {
+    .ai-cta {
+      margin: 10px 16px 0px 50px;
+        padding: 13px 25px;
     }
   }
   

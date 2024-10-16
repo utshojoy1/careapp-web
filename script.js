@@ -31,17 +31,7 @@ ScrollTrigger.refresh();
 }
 loco();
 
-
-gsap.to("#page-bottom",{
-    scrollTrigger:{
-        trigger:"#page-bottom",
-        start:"10% top",
-        end:"bottom top",
-        scroller:"#main",
-      },
-      opacity:0
-})
-var tl1 = gsap.timeline({
+var tl88 = gsap.timeline({
   scrollTrigger:{
     trigger:"#page2",
     scroller:"#main",
@@ -52,11 +42,11 @@ var tl1 = gsap.timeline({
     scrub:1
   }
 })
-tl1.to(".ai-section>h3",{
+tl88.to(".ai-section>h3",{
   top:"-5%",
   
 })
-tl1.to(".ai-section>h2",{
+tl88.to(".ai-section>h2",{
   top:"8%",
   
 })
@@ -569,6 +559,11 @@ gsap.to("#page25>img",{
   opacity:1
 })
 
-$(window).scroll(function(){
-$('nav').toggleclass('scrolled',$(this).scrollTop()>50);
+window.addEventListener('scroll', function() {
+  var navbar = document.getElementById('navbar');
+  if (window.scrollY > 50) {
+    navbar.classList.add('scrolled');
+  } else {
+    navbar.classList.remove('scrolled');
+  }
 });
