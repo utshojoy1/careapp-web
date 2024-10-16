@@ -898,8 +898,9 @@ html,body{
   }
   @media (max-width: 428px) {
     .hero-description {
-      max-width: 100%;
+      max-width: 86%;
       margin: 35px 10px;
+      text-align: justify;
     }
   }
   
@@ -1223,8 +1224,9 @@ html,body{
   }
   @media (max-width: 428px) {
     .benefits-description {
-      max-width: 100%;
-      text-align: center;
+      max-width: 80%;
+      text-align: justify;
+      margin: 0 40px;
     }
   }
 
@@ -2100,7 +2102,7 @@ html,body{
   @media (max-width: 428px) {
     .hr-title {
       max-width: 100%;
-      margin-top: 70px;
+      margin-top: 78px;
       font-size: 40px;
       line-height: 51px;
     }
@@ -2108,7 +2110,7 @@ html,body{
   @media (max-width: 428px) {
     .hr-title-2 {
       max-width: 100%;
-      margin-top: 75px;
+      margin-top: 110px;
     }
   }
   
@@ -2185,6 +2187,12 @@ html,body{
       max-width: 100%;
     }
   }
+  @media (max-width: 428px) {
+    .hr-description {
+      max-width: 100%;
+      align-items: center;
+    }
+  }
   
   .hr-description-text {
     color: #272d39;
@@ -2233,7 +2241,7 @@ html,body{
   }
   @media (max-width: 428px) {
     .hr-cta {
-      margin: 10px 55px;
+      margin: 10px 96px;
       padding: 12px 20px;
     }
   }
@@ -2365,12 +2373,12 @@ html,body{
     text-align: left;
   }
   
-  @media (max-width: 991px) {
+  @media (max-width: 1440px) {
     .who-benefits-description {
       max-width: 100%;
     }
   }
-  @media (max-width: 991px) {
+  @media (max-width: 428px) {
     .who-benefits-description {
       max-width: 80%;
       text-align:center;
