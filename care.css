@@ -1340,6 +1340,12 @@ html,body{
       margin-top: 40px;
     }
   }
+  @media (max-width: 428px) {
+    .ai-image {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
   
   .ai-content {
     display: flex;
