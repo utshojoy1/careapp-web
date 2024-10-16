@@ -569,9 +569,6 @@ gsap.to("#page25>img",{
   opacity:1
 })
 
-$(function () {
-  $(document).scroll(function () {
-	  var $nav = $(".navbar-fixed-top");
-	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-	});
+$(window).scroll(function(){
+$('nav').toggleclass('scrolled',$(this).scrollTop()>50);
 });

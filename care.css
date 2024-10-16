@@ -776,7 +776,9 @@ html,body{
       max-width: 100%;
     }
   }
-  
+  .bgcolor.scrolled{
+    background-color: #000000 ;
+  }
   .nav-item {
     align-self: stretch;
     margin: auto 0;
