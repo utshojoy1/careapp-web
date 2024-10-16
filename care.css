@@ -745,7 +745,7 @@ html,body{
   }
   @media (max-width: 768px) {
     .logo {
-      margin: auto 0px auto 20px;
+      margin: auto 0px ;
     }
   }
   @media (max-width: 428px) {
