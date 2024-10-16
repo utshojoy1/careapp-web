@@ -745,12 +745,12 @@ html,body{
   }
   @media (max-width: 768px) {
     .logo {
-      margin: auto 0px ;
+      margin: auto 0px auto 20px;
     }
   }
   @media (max-width: 428px) {
     .logo {
-      margin: auto 0px auto 70px;
+      margin: auto 0px auto 10px;
     }
   }
   .offcanvas-body {
