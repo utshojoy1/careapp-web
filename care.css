@@ -740,7 +740,7 @@ html,body{
   }
   @media (max-width: 1440px) {
     .logo {
-      margin: auto 0px auto 95px;
+      margin: auto 0px auto 24px;
     }
   }
   @media (max-width: 768px) {
