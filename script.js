@@ -31,7 +31,7 @@ ScrollTrigger.refresh();
 }
 loco();
 
-var tl1 = gsap.timeline({
+/*var tl1 = gsap.timeline({
   scrollTrigger:{
     trigger:"#page2",
     scroller:"#main",
@@ -49,6 +49,19 @@ tl1.to(".ai-section>h3",{
 tl1.to(".ai-section>h2",{
   top:"8%",
   
+})*/
+var tl1 = gsap.timeline({
+  scrollTrigger:{
+    trigger:"#page2",
+    scroller:"#main",
+    // markers:true,
+    pin:true,
+    start:"top top",
+    scrub:1
+  }
+})
+tl1.to("#page2>#center-page2",{
+  top:"-20%"
 })
 var tl2 = gsap.timeline({
   scrollTrigger:{
