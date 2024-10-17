@@ -2901,6 +2901,7 @@ html,body{
     font-weight: 700;
     text-transform: uppercase;
     align-self: flex-start;
+    padding-top: 10px;
   }
   
   .footer-column-content {
@@ -2956,6 +2957,7 @@ html,body{
     flex-direction: row;
     width: 94px;
     gap: 12px;
+    padding-top: 4px;
   }
   
   .footer-divider {
