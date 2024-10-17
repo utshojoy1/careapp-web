@@ -787,12 +787,7 @@ html,body{
       margin: auto 0px auto 10px;
     }
   }
-  .offcanvas-body {
-    display: flex;
-    flex-grow: 0;
-    padding: 0 0 0 321px;
-    overflow-y: visible;
-  }
+  
 
   .nav-menu {
     align-self: stretch;
@@ -856,6 +851,7 @@ html,body{
   @media (max-width: 991px) {
     .login-button {
       padding: 7px 28px;
+      margin-top: 12px;
     }
   }
   .hero-content {
