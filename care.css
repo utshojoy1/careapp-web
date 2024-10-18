@@ -1393,7 +1393,7 @@ html,body{
   @media (max-width: 1440px) {
     .ai-content {
       max-width: 100%;
-      margin-top: 90px;
+      margin-top: 10px;
       padding-bottom: 28vh;
     }
   }@media (max-width: 428px) {
