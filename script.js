@@ -31,25 +31,7 @@ ScrollTrigger.refresh();
 }
 loco();
 
-/*var tl1 = gsap.timeline({
-  scrollTrigger:{
-    trigger:"#page2",
-    scroller:"#main",
-    // markers:true,
-    pin:true,
-    start:"top top",
-    end: "bottom bottom",
-    scrub:1
-  }
-})
-tl1.to(".ai-section>h3",{
-  top:"-5%",
-  
-})
-tl1.to(".ai-section>h2",{
-  top:"8%",
-  
-})*/
+
 var tl1 = gsap.timeline({
   scrollTrigger:{
     trigger:"#page2",
@@ -61,7 +43,7 @@ var tl1 = gsap.timeline({
   }
 })
 tl1.to("#page2>#center-page2",{
-  top:"-20%"
+  top:"-80%"
 })
 var tl2 = gsap.timeline({
   scrollTrigger:{
@@ -74,7 +56,7 @@ var tl2 = gsap.timeline({
   }
 })
 tl2.to("#page1>#center-page1",{
-  top:"-20%"
+  top:"-50%"
 })
 var tl3 = gsap.timeline({
   scrollTrigger:{
