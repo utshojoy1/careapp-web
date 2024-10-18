@@ -39,7 +39,7 @@ var tl1 = gsap.timeline({
     // markers:true,
     pin:true,
     start:"top top",
-    scrub:1
+    scrub:10
   }
 })
 tl1.to("#page2>#center-page2",{
@@ -52,7 +52,7 @@ var tl2 = gsap.timeline({
     // markers:true,
     pin:true,
     start:"top top",
-    scrub:1
+    scrub:10
   }
 })
 tl2.to("#page1>#center-page1",{

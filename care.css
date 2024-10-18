@@ -951,6 +951,7 @@ html,body{
       max-width: 86%;
       margin: 35px 10px;
       text-align: justify;
+      line-height: 32px;
     }
   }
   
@@ -1006,7 +1007,7 @@ html,body{
   @media (max-width: 428px) {
     .features-section {
       max-width: 100%;
-      margin: 244px 0px 0 0;
+      margin: 90px 0px 0 0;
       align-items: center;
     }
   }
@@ -1434,7 +1435,7 @@ html,body{
   @media (max-width: 428px) {
     .ai-description-title {
       max-width: 100%;
-      font-size: 40px;
+      font-size: 36px;
       line-height: 56px;
       text-align: center;
     }
@@ -1477,6 +1478,7 @@ html,body{
     .ai-description-text {
       max-width: 100%;
       text-align: justify;
+      font-size: 18px;
     }
   }
   
@@ -1505,8 +1507,9 @@ html,body{
   }
   @media (max-width: 428px) {
     .ai-cta {
-      margin: 10px 16px 0px 50px;
-        padding: 13px 25px;
+      margin: 10px 39px 0px 50px;
+      padding: 16px 46px;
+      font-size: 12px;
     }
   }
   
@@ -1630,7 +1633,7 @@ html,body{
   @media (max-width: 428px) {
     .medication-description-title {
       max-width: 100%;
-      font-size: 40px;
+      font-size: 36px;
       line-height: 56px;
       text-align: center;
     }
@@ -1673,6 +1676,7 @@ html,body{
   @media (max-width: 428px) {
     .medication-description-text {
       max-width: 100%;
+      font-size: 18px;
     }
   }
   
@@ -1736,6 +1740,7 @@ html,body{
   @media (max-width: 428px) {
     .care-section {
       margin-top: 90px;
+      padding-bottom: 120px;
     }
   }
   
@@ -1853,7 +1858,7 @@ html,body{
   @media (max-width: 428px) {
     .care-description-title {
       max-width: 100%;
-      font-size: 40px;
+      font-size: 36px;
       line-height: 56px;
       text-align: center;
     }
@@ -1891,6 +1896,13 @@ html,body{
   @media (max-width: 991px) {
     .care-description-text {
       max-width: 100%;
+    }
+  }
+  @media (max-width: 428px) {
+    .care-description-text {
+      max-width: 100%;
+      font-size: 18px;
+      line-height: 28px;
     }
   }
   
@@ -2055,7 +2067,7 @@ html,body{
   @media (max-width: 428px) {
     .recruit-description-title {
       max-width: 100%;
-      font-size: 40px;
+      font-size: 36px;
       line-height: 56px;
       text-align: center;
     }
@@ -2097,6 +2109,8 @@ html,body{
     .recruit-description-text {
       max-width: 100%;
       text-align: justify;
+      font-size: 18px;
+      line-height: 30px;
     }
   }
   
@@ -2244,6 +2258,13 @@ html,body{
       margin-top: 40px;
     }
   }
+  @media (max-width: 428px) {
+    .hr-content {
+      max-width: 100%;
+      margin-top: 40px;
+      margin-bottom: 133px;
+    }
+  }
   
   .hr-description-title {
     color: #272d39;
@@ -2265,7 +2286,7 @@ html,body{
   @media (max-width: 428px) {
     .hr-description-title {
       max-width: 100%;
-      font-size: 40px;
+      font-size: 36px;
       line-height: 56px;
       text-align: center;
     }
@@ -2309,6 +2330,8 @@ html,body{
     .hr-description-text {
       max-width: 80%;
       text-align: justify;
+      font-size: 18px;
+      line-height: 30px;
     }
   }
   
@@ -2366,6 +2389,11 @@ html,body{
   @media (max-width: 991px) {
     .who-benefits-section {
       margin-top: 40px;
+    }
+  }
+  @media (max-width: 428px) {
+    .who-benefits-section {
+      margin-top: 0px;
     }
   }
   
@@ -2474,6 +2502,7 @@ html,body{
   @media (max-width: 1440px) {
     .who-benefits-description {
       max-width: 100%;
+      font-size: 26px;
     }
   }
   @media (max-width: 428px) {
