@@ -924,7 +924,7 @@ html,body{
   @media (max-width: 428px) {
     .hero-title {
       max-width: 100%;
-      font-size: 56px;
+      font-size: 36px;
       line-height: 52px;
       margin: -500px 21px 0px;
     }
@@ -947,6 +947,7 @@ html,body{
   }
   @media (max-width: 428px) {
     .hero-description {
+      font-size: 18px;
       max-width: 86%;
       margin: 35px 10px;
       text-align: justify;
@@ -1031,7 +1032,7 @@ html,body{
       line-height: 51px;
       width: 100vw;
       text-align: center;
-      font: 750 45px/52px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
+      font: 750 36px/52px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
     }
   }
   
@@ -1254,7 +1255,7 @@ html,body{
   @media (max-width: 428px) {
     .benefits-title {
       max-width: 100%;
-      font-size: 40px;
+      font-size: 36px;
       line-height: 54px;
       text-align: center;
     }
@@ -1277,6 +1278,8 @@ html,body{
       max-width: 80%;
       text-align: justify;
       margin: 0 40px;
+      font-size: 18px;
+      line-height: 36px;
     }
   }
 
