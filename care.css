@@ -171,6 +171,7 @@ html,body{
   text-align: center;
   color: #fff;
   font-size: 2vw;
+  z-index: 2;
 }
 
 #page1>video{
@@ -210,9 +211,8 @@ html,body{
     object-fit: cover;
 }
 #page2{
-  padding-top: 30px!important;
   position: relative;
-  height: 125vh!important;
+  height: 180vh;
   width: 100vw;
   background-color: #fff;
 }
@@ -299,6 +299,7 @@ html,body{
   text-align: center;
   color: #fff;
   font-size: 2vw;
+  z-index: 2;
 }
 #page2-1{
   position: relative;
@@ -739,8 +740,9 @@ html,body{
 .video-wrapper-p {
   position: relative;
   width: 100%;
-  height: 125vh;
-  overflow: hidden;
+  height: 180vh;
+  overflow: hidden; 
+  z-index: 1;
 }
  video {
     height: 100%;
