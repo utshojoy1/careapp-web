@@ -335,6 +335,11 @@ html,body{
     width: 100vw;
     background-color: #e8f0fc;
 }
+@media (max-width: 428px) {
+  #page3 {
+    height: 175vh !important;
+  }
+}
 #page3-upper{
     height: 25%;
     width: 35%;
@@ -408,6 +413,11 @@ html,body{
     height: 210vh;
     width: 100vw;
     background-color: #fff;
+}
+@media (max-width: 428px) {
+  #page4 {
+    height: 175vh !important;
+  }
 }
 #page4-upper{
     height: 25%;
@@ -484,6 +494,11 @@ html,body{
     width: 100vw;
     background-color: #e8f0fc;
 }
+@media (max-width: 428px) {
+  #page5 {
+    height: 175vh !important;
+  }
+}
 #page5-upper{
     height: 25%;
     width: 35%;
@@ -557,6 +572,11 @@ html,body{
     height: 210vh;
     width: 100vw;
     background-color: #f5f8ff;
+}
+@media (max-width: 428px) {
+  #page6 {
+    height: 175vh !important;
+  }
 }
 #page6-upper{
     height: 25%;
@@ -1785,7 +1805,7 @@ html,body{
   @media (max-width: 428px) {
     .care-title {
       max-width: 100%;
-      margin-top: 83px;
+      margin-top: 145px;
       font-size: 37px;
       line-height: 42px;
     }
@@ -1808,7 +1828,7 @@ html,body{
   
   @media (max-width: 428px) {
     .care-title-2 {
-      margin-top: 103px;
+      margin-top: 185px;
       
     }
   }
