@@ -189,7 +189,7 @@ html,body{
 
 @media (max-width: 428px) {
   #page1-1 {
-    height: 18vh;
+    height: 1vh;
 }}
 #page1-1 h1{
     font-size: 4vw;
@@ -309,7 +309,7 @@ html,body{
 
 @media (max-width: 428px) {
 #page2-1 {
-  height: 18vh;
+  height: 1vh;
 }}
 #page2-1 h1{
   font-size: 4vw;
