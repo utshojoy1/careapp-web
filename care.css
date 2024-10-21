@@ -1827,7 +1827,7 @@ html,body{
     .care-content {
       max-width: 100%;
       margin-top: 50px;
-      padding-bottom: 1vh;
+      padding-bottom: 6vh;
     }
   }
   @media (max-width: 428px) {
