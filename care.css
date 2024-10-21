@@ -1744,7 +1744,7 @@ html,body{
   }
   @media (max-width: 428px) {
     .medication-cta {
-      margin: 10px 60px;
+      margin: 10px 72px;
       padding: 12px 18px;
       align-items: center;
     }
@@ -1971,7 +1971,7 @@ html,body{
   }
   @media (max-width: 428px) {
     .care-cta {
-      margin: 10px 60px;
+      margin: 10px 74px;
       padding: 12px 18px;
     }
   }
@@ -2028,7 +2028,11 @@ html,body{
     transform: translateX(-50%);
   
   }
-  
+  @media (max-width: 428px) {
+    .recruit-title-2 {
+      margin-top: 129px;
+    }
+  }
   @media (max-width: 991px) {
     .recruit-title {
       max-width: 100%;
@@ -2040,7 +2044,7 @@ html,body{
   @media (max-width: 428px) {
     .recruit-title {
       max-width: 100%;
-      margin-top: 70px;
+      margin-top: 94px;
       font-size: 36px;
       line-height: 51px;
     }
@@ -2180,7 +2184,7 @@ html,body{
   }
   @media (max-width: 428px) {
     .recruit-cta {
-      margin: 10px 55px;
+      margin: 10px 72px;
       padding: 12px 20px;
       text-align: justify;
     }
@@ -2252,7 +2256,7 @@ html,body{
   @media (max-width: 428px) {
     .hr-title {
       max-width: 100%;
-      margin-top: 78px;
+      margin-top: 115px;
       font-size: 40px;
       line-height: 51px;
     }
@@ -2260,7 +2264,7 @@ html,body{
   @media (max-width: 428px) {
     .hr-title-2 {
       max-width: 100%;
-      margin-top: 110px;
+      margin-top: 120px;
     }
   }
   
@@ -2402,8 +2406,8 @@ html,body{
   }
   @media (max-width: 428px) {
     .hr-cta {
-      margin: 10px 96px;
-      padding: 12px 20px;
+      padding: 10px 20px;
+      margin: 11px 116px;
     }
   }
   
