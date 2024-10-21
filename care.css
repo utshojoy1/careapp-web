@@ -1828,7 +1828,7 @@ html,body{
   
   @media (max-width: 428px) {
     .care-title-2 {
-      margin-top: 185px;
+      margin-top: 138px;
       
     }
   }
@@ -2044,7 +2044,7 @@ html,body{
   @media (max-width: 428px) {
     .recruit-title {
       max-width: 100%;
-      margin-top: 70px;
+      margin-top: 100px;
       font-size: 36px;
       line-height: 51px;
     }
@@ -2479,6 +2479,15 @@ html,body{
     }
   }
   @media (max-width: 428px) {
+    .who-benefits-title {
+      max-width: 100%;
+      margin-top: 78px;
+      font-size: 40px;
+      line-height: 51px;
+      width: 80vw;
+    }
+  }
+  @media (max-width: 428px) {
     .who-benefits-title-2 {
       font-size: 4vw;
     color: #2f80ed;
@@ -2673,7 +2682,7 @@ html,body{
     border-radius: 24px;
     background-color: #2f80ed;
     display: flex;
-    margin-top: -10px;
+    margin-top: 10px;
     align-items: center;
     gap: 12px;
     font-size: 15px;
