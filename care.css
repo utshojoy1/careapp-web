@@ -1721,13 +1721,12 @@ html,body{
     margin: auto 0;
   }
   .care-section {
-    background-color: rgba(47, 128, 237, 0.06);
     color: #2f80ed;
     letter-spacing: 0.22px;
     text-align: center;
     margin-top: 0px;
     padding-top: 350px ;
-    padding-bottom: 150px ;
+    padding-bottom: 70px ;
     font: 700 24px/1 'Avenir LT Std', sans-serif;
     
   }
@@ -1814,6 +1813,7 @@ html,body{
   
   .care-content {
     display: flex;
+    background-color: #e8f0fc;
     margin-top: 50px;
     align-items: flex-start;
     gap: 40px 236px;
@@ -2026,7 +2026,7 @@ html,body{
   
   .recruit-content {
     display: flex;
-    margin-top: 84px;
+    margin-top: 42px;
     align-items: flex-start;
     gap: 40px 236px;
     font-family: 'Avenir LT Std', sans-serif;
@@ -2159,13 +2159,12 @@ html,body{
 
 
   .hr-section {
-    background-color: rgba(47, 128, 237, 0.06);
     color: #2f80ed;
     letter-spacing: 0.22px;
     text-align: center;
     margin-top: 80px;
-    padding-top: 350px ;
-    padding-bottom: 150px ;
+    padding-top: 380px ;
+    padding-bottom: 0px ;
     font: 700 24px/1 'Avenir LT Std', sans-serif;
     
   }
@@ -2232,7 +2231,7 @@ html,body{
     object-fit: contain;
     object-position: center;
     width: 100%;
-    margin-top: 77px;
+    margin-top: 10px;
     max-width: 1766px;
   }
   
@@ -2245,11 +2244,13 @@ html,body{
   
   .hr-content {
     display: flex;
+    background-color: #e8f0fc;
     margin: 84px 0px 84px;
     align-items: flex-start;
     gap: 40px 236px;
     font-family: 'Avenir LT Std', sans-serif;
     justify-content: center;
+    padding-bottom: 7vh;
     flex-wrap: wrap;
   }
   
@@ -2381,7 +2382,7 @@ html,body{
     color: #2f80ed;
     letter-spacing: 0.22px;
     text-align: center;
-    margin-top: 154px;
+    margin-top: 0px;
     padding-top: 260px ;
     font: 700 24px/1 'Avenir LT Std', sans-serif;
     
@@ -2471,7 +2472,7 @@ html,body{
   
   .who-benefits-content {
     display: flex;
-    margin-top: 79px;
+    margin-top: 32px;
     padding-bottom: 480px;
     align-items: center;
     gap: 40px 236px;

@@ -39,11 +39,11 @@ var tl1 = gsap.timeline({
     // markers:true,
     pin:true,
     start:"top top",
-    scrub:12
+    scrub:5
   }
 })
 tl1.to("#page2>#center-page2",{
-  top:"-90%"
+  top:"-60%"
 })
 var tl2 = gsap.timeline({
   scrollTrigger:{
@@ -52,11 +52,11 @@ var tl2 = gsap.timeline({
     // markers:true,
     pin:true,
     start:"top top",
-    scrub:12
+    scrub:5
   }
 })
 tl2.to("#page1>#center-page1",{
-  top:"-90%"
+  top:"-60%"
 })
 var tl3 = gsap.timeline({
   scrollTrigger:{
