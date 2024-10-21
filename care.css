@@ -1744,7 +1744,7 @@ html,body{
   }
   @media (max-width: 428px) {
     .medication-cta {
-      margin: 10px 72px;
+      margin: 10px 60px;
       padding: 12px 18px;
       align-items: center;
     }
@@ -1971,7 +1971,7 @@ html,body{
   }
   @media (max-width: 428px) {
     .care-cta {
-      margin: 10px 74px;
+      margin: 10px 60px;
       padding: 12px 18px;
     }
   }
@@ -2044,7 +2044,7 @@ html,body{
   @media (max-width: 428px) {
     .recruit-title {
       max-width: 100%;
-      margin-top: 94px;
+      margin-top: 70px;
       font-size: 36px;
       line-height: 51px;
     }
@@ -2184,7 +2184,7 @@ html,body{
   }
   @media (max-width: 428px) {
     .recruit-cta {
-      margin: 10px 72px;
+      margin: 10px 55px;
       padding: 12px 20px;
       text-align: justify;
     }
@@ -2406,8 +2406,8 @@ html,body{
   }
   @media (max-width: 428px) {
     .hr-cta {
-      padding: 10px 20px;
-      margin: 11px 116px;
+      margin: 10px 96px;
+      padding: 12px 20px;
     }
   }
   
