@@ -1877,9 +1877,9 @@ z-index: 2;
     
   }
   
-  @media (max-width: 991px) {
+  @media (max-width: 1440px) {
     .care-section {
-      margin-top: 40px;
+      margin-top: -52px;
     }
   }
   @media (max-width: 428px) {
