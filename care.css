@@ -2528,7 +2528,7 @@ z-index: 2;
   
   @media (max-width: 1440px) {
     .who-benefits-section {
-      margin-top: 40px;
+      margin-top: 0px;
     }
   }
   @media (max-width: 428px) {
