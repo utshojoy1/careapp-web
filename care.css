@@ -91,7 +91,7 @@ html,body{
 }
 @media(max-width: 428px) {
   #page1{
-  margin: 600px 0px;
+  margin: 0px 0px !important;
 
 }}
 #page1 h1{
@@ -339,7 +339,7 @@ z-index: 2;
 }
 @media(max-width: 428px) {
 #page3{
-margin: 600px 0px;
+  margin: 0px 0px !important;
 
 }}
 #page3 h1{
@@ -431,7 +431,8 @@ z-index: 2;
 
 @media (max-width: 428px) {
 #page3-1 {
-  height: 1vh;
+  height: 80vh;
+  margin-top: -600px;
 }}
 #page3-1 h1{
   font-size: 4vw;
@@ -461,7 +462,7 @@ z-index: 2;
 }
 @media(max-width: 428px) {
 #page4{
-margin: 600px 0px;
+margin: 0px 0px!important;
 
 }}
 #page4 h1{
@@ -558,7 +559,8 @@ z-index: 2;
   }}
 @media (max-width: 428px) {
 #page4-1 {
-  height: 1vh;
+  height: 66vh;
+  margin-top: -98vh;
 }}
 #page4-1 h1{
   font-size: 4vw;
@@ -913,7 +915,7 @@ z-index: 2;
     }
   }
   .rec-video {
-    height: 70%;
+    height: 100%;
     width: 100%;
     object-fit: cover;
     position: absolute;
@@ -921,6 +923,26 @@ z-index: 2;
     z-index: -1;
     
   }
+  @media(max-width: 1440px){
+    .rec-video {
+      height: 70%;
+      width: 100%;
+      object-fit: cover;
+      position: absolute;
+      transform: translateX(0%);
+      z-index: -1;
+    }
+  }
+  @media(max-width: 428px){
+  .rec-video {
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    transform: translateX(0%);
+    z-index: -1;
+  }
+}
   .logo {
     aspect-ratio: 4.03;
     object-fit: contain;
@@ -2202,8 +2224,9 @@ z-index: 2;
   @media (max-width: 428px) {
     .recruit-content {
       max-width: 100%;
-      margin-top: 40px;
+      margin-top: 100px;
       text-align: center;
+      margin-bottom: 46px;
     }
   }
   
