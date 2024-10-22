@@ -462,7 +462,7 @@ z-index: 2;
 }
 @media(max-width: 428px) {
 #page4{
-margin: 0px 0px!important;
+margin: -50px 0px!important;
 
 }}
 #page4 h1{
@@ -559,8 +559,8 @@ z-index: 2;
   }}
 @media (max-width: 428px) {
 #page4-1 {
-  height: 66vh;
-  margin-top: -98vh;
+  height: 76vh;
+  margin-top: -78vh;
 }}
 #page4-1 h1{
   font-size: 4vw;
