@@ -40,7 +40,7 @@ var tl1 = gsap.timeline({
     scrub:1
   }
 })
-tl2.to("#page2>#center-page2",{
+tl1.to("#page2>#center-page2",{
   top:"-50%"
 })
 var tl2 = gsap.timeline({
