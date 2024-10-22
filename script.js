@@ -32,7 +32,7 @@ ScrollTrigger.refresh();
 loco();
 var tl1 = gsap.timeline({
   scrollTrigger:{
-    trigger:"#page2",
+    trigger:"#page1",
     scroller:"#main",
     //markers:true,
     pin:true,
@@ -40,12 +40,12 @@ var tl1 = gsap.timeline({
     scrub:1
   }
 })
-tl1.to("#page2>#center-page2",{
-  top:"-10%"
+tl1.to("#page1>#center-page1",{
+  top:"-50%"
 })
 var tl2 = gsap.timeline({
   scrollTrigger:{
-    trigger:"#page1",
+    trigger:"#page2",
     scroller:"#main",
     // markers:true,
     pin:true,
@@ -53,10 +53,23 @@ var tl2 = gsap.timeline({
     scrub:1
   }
 })
-tl2.to("#page1>#center-page1",{
+tl2.to("#page2>#center-page2",{
   top:"-50%"
 })
 var tl3 = gsap.timeline({
+  scrollTrigger:{
+    trigger:"#page3",
+    scroller:"#main",
+    // markers:true,
+    pin:true,
+    start:"top top",
+    scrub:1
+  }
+})
+tl3.to("#page3>#center-page3",{
+  top:"-50%"
+})
+/*var tl3 = gsap.timeline({
   scrollTrigger:{
     trigger:"#page3",
     scroller:"#main",
@@ -74,9 +87,21 @@ tl3.to(".care-section>h3",{
 tl3.to(".care-section>h2",{
   top:"8%",
   
+})*/
+var tl4 = gsap.timeline({
+  scrollTrigger:{
+    trigger:"#page4",
+    scroller:"#main",
+    // markers:true,
+    pin:true,
+    start:"top top",
+    scrub:1
+  }
 })
-
-var tl4 = gsap.timeline({  
+tl4.to("#page4>#center-page4",{
+  top:"-50%"
+})
+/*var tl4 = gsap.timeline({  
   scrollTrigger:{
     trigger:"#page4",
     scroller:"#main",
@@ -94,7 +119,7 @@ tl4.to(".recruit-section>h3",{
 tl4.to(".recruit-section>h2",{
   top:"8%",
   
-})
+})*/
 var tl5 = gsap.timeline({  
   scrollTrigger:{
     trigger:"#page5",
