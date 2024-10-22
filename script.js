@@ -41,7 +41,7 @@ var tl1 = gsap.timeline({
   }
 })
 tl1.to("#page2>#center-page2",{
-  top:"-50%"
+  top:"-10%"
 })
 var tl2 = gsap.timeline({
   scrollTrigger:{
