@@ -30,18 +30,17 @@ ScrollTrigger.refresh();
 
 }
 loco();
-
-
 var tl1 = gsap.timeline({
   scrollTrigger:{
     trigger:"#page2",
     scroller:"#main",
-    markers:true,
+    // markers:true,
+    pin:true,
     start:"top top",
     scrub:1
   }
 })
-tl1.to("#page2>#center-page2",{
+tl2.to("#page2>#center-page2",{
   top:"-50%"
 })
 var tl2 = gsap.timeline({
@@ -96,7 +95,6 @@ tl4.to(".recruit-section>h2",{
   top:"8%",
   
 })
-
 var tl5 = gsap.timeline({  
   scrollTrigger:{
     trigger:"#page5",

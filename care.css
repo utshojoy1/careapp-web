@@ -96,7 +96,7 @@ html,body{
 }}
 #page1 h1{
     font-size: 4vw;
-    color: #000000;
+    color: #ffffff;
     letter-spacing: -1.2px;
     margin-top: 50px;
     width: 100vw;
@@ -216,10 +216,14 @@ html,body{
   width: 100vw;
   background-color: #fff;
 }
+@media(max-width: 428px) {
+#page2{
+margin: 600px 0px;
 
+}}
 #page2 h1{
   font-size: 4vw;
-  color: #000000;
+  color: #ffffff;
   letter-spacing: -1.2px;
   margin-top: 50px;
   width: 100vw;
@@ -230,77 +234,73 @@ html,body{
   transform: translateX(-50%);
   white-space: wrap;
 }
-
 @media (max-width: 1440px) {
-  #page2 h1 {
-    max-width: 133%;
-    font: 700 50px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
-    padding-bottom: 216px;
-    width: 100vw;
-    text-align: center;
-  }
+#page2 h1 {
+  max-width: 133%;
+  font: 700 50px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
+  padding-bottom: 216px;
+  width: 100vw;
+  text-align: center;
+}
 }
 @media (max-width: 2560px) {
-  #page2 h3 {
-    max-width: 133%;
-    font: 700 25px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
-    width: 100vw;
-    text-align: center;
-    color: #2F80ED;
-  }
+#page2 h3 {
+  max-width: 133%;
+  font: 700 25px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
+  width: 100vw;
+  text-align: center;
+  color: #2F80ED;
+}
 }
 @media (max-width: 1440px) {
-  #page2 h3 {
-    max-width: 133%;
-    font: 700 25px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
-    padding-bottom: 158px;
-    width: 100vw;
-    text-align: center;
-    color: #2F80ED;
-  }
+#page2 h3 {
+  max-width: 133%;
+  font: 700 25px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
+  padding-bottom: 158px;
+  width: 100vw;
+  text-align: center;
+  color: #2F80ED;
+}
 }
 @media (max-width: 428px) {
-  #page2 h1 {
-    max-width: 133%;
-    font: 700 36px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
-    padding-bottom: 15px;
-    width: 100vw;
-    text-align: center;
-    
-  }
+#page2 h1 {
+  max-width: 133%;
+  font: 700 36px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
+  padding-bottom: 15px;
+  width: 100vw;
+  text-align: center;
+}
 }
 @media (max-width: 428px) {
-  #page2 h3 {
-    max-width: 133%;
-    font: 700 18px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
-    padding-bottom: 0px;
-    width: 100vw;
-    text-align: center;
-    color: #2F80ED;
-
-  }
+#page2 h3 {
+  max-width: 133%;
+  font: 700 18px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
+  padding-bottom: 40px;
+  width: 100vw;
+  text-align: center;
+  color: #2F80ED;
+}
 }
 @media (max-width: 325px) {
-  #page2 h3 {
-    max-width: 133%;
-    font: 700 18px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
-    padding-bottom: 95px;
-    width: 100vw;
-    text-align: center;
-    color: #2F80ED;
-  }
+#page2 h3 {
+  max-width: 133%;
+  font: 700 25px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
+  padding-bottom: 195px;
+  width: 100vw;
+  text-align: center;
+}
+}
+#center-page2{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+color: #fff;
+font-size: 2vw;
+z-index: 2;
 }
 
-#center-page2{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  text-align: center;
-  color: #fff;
-  font-size: 2vw;
-  z-index: 2;
-}
 #page2-1{
   position: relative;
   height: 50vh;
