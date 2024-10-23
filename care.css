@@ -1677,9 +1677,9 @@ z-index: 2;
   }
   @media (max-width: 428px) {
     .ai-cta {
-      margin: 10px 39px 0px 50px;
-      padding: 16px 46px;
-      font-size: 12px;
+      margin: 10px 55px;
+      padding: 12px 20px;
+      text-align: justify;
     }
   }
   
