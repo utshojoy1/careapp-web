@@ -433,6 +433,7 @@ z-index: 2;
 #page3-1 {
   height: 80vh;
   margin-top: -600px;
+  z-index: 1;
 }}
 #page3-1 h1{
   font-size: 4vw;
