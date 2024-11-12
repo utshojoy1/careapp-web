@@ -37,7 +37,7 @@ var tl1 = gsap.timeline({
     //markers:true,
     pin:true,
     start:"top top",
-    scrub:1
+    scrub:5
   }
 })
 tl1.to("#page1>#center-page1",{
@@ -50,7 +50,7 @@ var tl2 = gsap.timeline({
     // markers:true,
     pin:true,
     start:"top top",
-    scrub:1
+    scrub:5
   }
 })
 tl2.to("#page2>#center-page2",{
@@ -63,31 +63,13 @@ var tl3 = gsap.timeline({
     // markers:true,
     pin:true,
     start:"top top",
-    scrub:1
+    scrub:5
   }
 })
 tl3.to("#page3>#center-page3",{
   top:"-50%"
 })
-/*var tl3 = gsap.timeline({
-  scrollTrigger:{
-    trigger:"#page3",
-    scroller:"#main",
-    //markers:true,
-    pin:true,
-    start:"top top",
-    end: "bottom bottom",
-    scrub:1
-  }
-})
-tl3.to(".care-section>h3",{
-  top:"-5%",
-  
-})
-tl3.to(".care-section>h2",{
-  top:"8%",
-  
-})*/
+
 var tl4 = gsap.timeline({
   scrollTrigger:{
     trigger:"#page4",
@@ -95,7 +77,7 @@ var tl4 = gsap.timeline({
     // markers:true,
     pin:true,
     start:"top top",
-    scrub:1
+    scrub:5
   }
 })
 tl4.to("#page4>#center-page4",{
@@ -127,7 +109,7 @@ var tl5 = gsap.timeline({
     // markers:true,
     pin:true,
     start:"top top",
-    scrub:1
+    scrub:5
   }
 })
 tl5.to("#page5>#center-page5",{
@@ -141,7 +123,7 @@ var tl6 = gsap.timeline({
     // markers:true,
     pin:true,
     start:"top top",
-    scrub:1
+    scrub:5
   }
 })
 tl6.to("#page6>#center-page6",{
