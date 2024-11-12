@@ -585,7 +585,7 @@ z-index: 2;
 
 #page5{
   position: relative;
-  height: 140vh;
+  height: 140vh!important;;
   width: 100vw;
   background-color: #fff;
   margin-top: 1vh!important;
@@ -680,7 +680,7 @@ z-index: 2;
   width: 100vw;
   background-color: #fff;
   padding-top: 0vh;
-  margin-top: -5vh;
+  margin-top: -25vh;
 }
 
 @media (max-width: 1440px) {
