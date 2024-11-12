@@ -120,43 +120,32 @@ tl4.to(".recruit-section>h2",{
   top:"8%",
   
 })*/
-var tl5 = gsap.timeline({  
+var tl5 = gsap.timeline({
   scrollTrigger:{
     trigger:"#page5",
     scroller:"#main",
-    //markers:true,
+    // markers:true,
     pin:true,
     start:"top top",
-    end: "bottom bottom",
     scrub:1
   }
 })
-tl5.to(".hr-section>h3",{
-  top:"-6%",
-  
+tl5.to("#page5>#center-page5",{
+  top:"-50%"
 })
-tl5.to(".hr-section>h2",{
-  top:"8%",
-  
-})
-var tl6 = gsap.timeline({  
+
+var tl6 = gsap.timeline({
   scrollTrigger:{
     trigger:"#page6",
     scroller:"#main",
-    //markers:true,
+    // markers:true,
     pin:true,
     start:"top top",
-    end: "bottom bottom",
     scrub:1
   }
 })
-tl6.to(".who-benefits-section>h3",{
-  top:"-5%",
-  
-})
-tl6.to(".who-benefits-section>h2",{
-  top:"8%",
-  
+tl6.to("#page6>#center-page6",{
+  top:"-50%"
 })
 
 
