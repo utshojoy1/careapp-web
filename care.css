@@ -3150,6 +3150,13 @@ z-index: 2;
     align-self: flex-start;
     padding-top: 10px;
   }
+  .footer-column-title-2 {
+    color: #2f80ed;
+    font-weight: 700;
+    text-transform: uppercase;
+    align-self: flex-start;
+    padding-top: 130px;
+  }
   
   .footer-column-content {
     color: #525761;
@@ -3164,6 +3171,7 @@ z-index: 2;
     flex-direction: column;
     justify-content: flex-start;
     width: 280px;
+    padding-top: 10px;
   }
   
   .contact-info {
