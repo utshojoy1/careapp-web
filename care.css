@@ -2864,7 +2864,7 @@ z-index: 2;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 170px 80px;
+    padding: 130px 80px;
   }
   
   @media (max-width: 991px) {
