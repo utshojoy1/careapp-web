@@ -122,7 +122,7 @@ html,body{
     font: 700 25px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
     width: 100vw;
     text-align: center;
-    color: #2F80ED;
+    color: #407648;
   }
 }
 @media (max-width: 1440px) {
@@ -132,7 +132,7 @@ html,body{
     padding-bottom: 158px;
     width: 100vw;
     text-align: center;
-    color: #2F80ED;
+    color: #407648;
   }
 }
 @media (max-width: 428px) {
@@ -151,7 +151,7 @@ html,body{
     padding-bottom: 0px;
     width: 100vw;
     text-align: center;
-    color: #2F80ED;
+    color: #407648;
   }
 }
 @media (max-width: 325px) {
@@ -249,7 +249,7 @@ margin: 600px 0px;
   font: 700 25px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
   width: 100vw;
   text-align: center;
-  color: #2F80ED;
+  color: #407648;
 }
 }
 @media (max-width: 1440px) {
@@ -259,7 +259,7 @@ margin: 600px 0px;
   padding-bottom: 158px;
   width: 100vw;
   text-align: center;
-  color: #2F80ED;
+  color: #407648;
 }
 }
 @media (max-width: 428px) {
@@ -278,7 +278,7 @@ margin: 600px 0px;
   padding-bottom: 40px;
   width: 100vw;
   text-align: center;
-  color: #2F80ED;
+  color: #407648;
 }
 }
 @media (max-width: 325px) {
@@ -370,7 +370,7 @@ z-index: 2;
   font: 700 25px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
   width: 100vw;
   text-align: center;
-  color: #2F80ED;
+  color: #407648;
 }
 }
 @media (max-width: 1440px) {
@@ -380,7 +380,7 @@ z-index: 2;
   padding-bottom: 158px;
   width: 100vw;
   text-align: center;
-  color: #2F80ED;
+  color: #407648;
 }
 }
 @media (max-width: 428px) {
@@ -399,7 +399,7 @@ z-index: 2;
   padding-bottom: 0px;
   width: 100vw;
   text-align: center;
-  color: #2F80ED;
+  color: #407648;
 }
 }
 @media (max-width: 325px) {
@@ -494,7 +494,7 @@ margin: -10px 0px!important;
   font: 700 25px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
   width: 100vw;
   text-align: center;
-  color: #2F80ED;
+  color: #407648;
 }
 }
 @media (max-width: 1440px) {
@@ -504,7 +504,7 @@ margin: -10px 0px!important;
   padding-bottom: 158px;
   width: 100vw;
   text-align: center;
-  color: #2F80ED;
+  color: #407648;
 }
 }
 @media (max-width: 428px) {
@@ -523,7 +523,7 @@ margin: -10px 0px!important;
   padding-bottom: 0px;
   width: 100vw;
   text-align: center;
-  color: #2F80ED;
+  color: #407648;
 }
 }
 @media (max-width: 325px) {
@@ -623,7 +623,7 @@ margin: -10px 0px!important;
   font: 700 25px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
   width: 100vw;
   text-align: center;
-  color: #2F80ED;
+  color: #407648;
 }
 }
 @media (max-width: 1440px) {
@@ -633,7 +633,7 @@ margin: -10px 0px!important;
   padding-bottom: 158px;
   width: 100vw;
   text-align: center;
-  color: #2F80ED;
+  color: #407648;
 }
 }
 @media (max-width: 428px) {
@@ -652,7 +652,7 @@ margin: -10px 0px!important;
   padding-bottom: 0px;
   width: 100vw;
   text-align: center;
-  color: #2F80ED;
+  color: #407648;
 }
 }
 @media (max-width: 325px) {
@@ -752,7 +752,7 @@ margin: -10px 0px!important;
   font: 700 25px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
   width: 100vw;
   text-align: center;
-  color: #2F80ED;
+  color: #407648;
 }
 }
 @media (max-width: 1440px) {
@@ -762,7 +762,7 @@ margin: -10px 0px!important;
   padding-bottom: 158px;
   width: 100vw;
   text-align: center;
-  color: #2F80ED;
+  color: #407648;
 }
 }
 @media (max-width: 428px) {
@@ -781,7 +781,7 @@ margin: -10px 0px!important;
   padding-bottom: 0px;
   width: 100vw;
   text-align: center;
-  color: #2F80ED;
+  color: #407648;
 }
 }
 @media (max-width: 325px) {
@@ -1040,10 +1040,10 @@ z-index: 2;
   }
 }
   .logo {
-    aspect-ratio: 4.03;
+    aspect-ratio: 3.03;
     object-fit: contain;
     object-position: center;
-    width: 234px;
+    width: 284px;
     align-self: stretch;
     margin: auto 0px auto 0px;
   }
@@ -1113,7 +1113,7 @@ z-index: 2;
   
   .login-button {
     border-radius: 31px;
-    background-color: #2f80ed;
+    background-color: #407648;
     font-size: 16px;
     color: #fff;
     font-weight: 600;
@@ -1220,7 +1220,7 @@ z-index: 2;
   
   .cta-button {
     border-radius: 24px;
-    background-color: #2f80ed;
+    background-color: #407648;
     display: flex;
     margin-top: 31px;
     align-items: center;
@@ -1549,7 +1549,7 @@ z-index: 2;
 
   .ai-section {
     background-color: rgba(47, 128, 237, 0.06);
-    color: #2f80ed;
+    color: #407648;
     letter-spacing: 0.22px;
     text-align: center;
     margin-top: 0px;
@@ -1610,7 +1610,7 @@ z-index: 2;
 
   .ai-title-2 {
     font-size: 4vw;
-    color: #2f80ed;
+    color: #407648;
     letter-spacing: 0.22px;
     text-align: center;
     margin-top: 129px;
@@ -1747,7 +1747,7 @@ z-index: 2;
   
   .ai-cta {
     border-radius: 24px;
-    background-color: #2f80ed;
+    background-color: #407648;
     align-self: flex-start;
     display: flex;
     align-items: center;
@@ -1785,7 +1785,7 @@ z-index: 2;
     margin: auto 0;
   }
 .medication-section {
-    color: #2f80ed;
+    color: #407648;
     letter-spacing: 0.22px;
     text-align: center;
     margin-top: -55px;
@@ -1816,7 +1816,7 @@ z-index: 2;
   }
   .medication-title-2 {
       font-size: 4vw;
-      color: #2f80ed;
+      color: #407648;
       letter-spacing: 0.22px;
       text-align: center;
       margin-top: 50px;
@@ -1946,7 +1946,7 @@ z-index: 2;
   
   .medication-cta {
     border-radius: 24px;
-    background-color: #2f80ed;
+    background-color: #407648;
     align-self: flex-start;
     display: flex;
     margin-top: 10px;
@@ -1985,7 +1985,7 @@ z-index: 2;
     margin: auto 0;
   }
   .care-section {
-    color: #2f80ed;
+    color: #407648;
     letter-spacing: 0.22px;
     text-align: center;
     margin-top: 0px;
@@ -2038,7 +2038,7 @@ z-index: 2;
   }
   .care-title-2 {
     font-size: 4vw;
-    color: #2f80ed;
+    color: #407648;
     letter-spacing: 0.22px;
     text-align: center;
     margin-top: 129px;
@@ -2174,7 +2174,7 @@ z-index: 2;
   
   .care-cta {
     border-radius: 24px;
-    background-color: #2f80ed;
+    background-color: #407648;
     align-self: flex-start;
     display: flex;
     margin-top: 10px;
@@ -2213,7 +2213,7 @@ z-index: 2;
   }
 
   .recruit-section {
-    color: #2f80ed;
+    color: #407648;
     letter-spacing: 0.22px;
     text-align: center;
     margin-top: -57px;
@@ -2244,7 +2244,7 @@ z-index: 2;
   }
   .recruit-title-2 {
     font-size: 4vw;
-    color: #2f80ed;
+    color: #407648;
     letter-spacing: 0.22px;
     text-align: center;
     margin-top: 129px;
@@ -2395,7 +2395,7 @@ z-index: 2;
   
   .recruit-cta {
     border-radius: 24px;
-    background-color: #2f80ed;
+    background-color: #407648;
     align-self: flex-start;
     display: flex;
     margin-top: 10px;
@@ -2437,7 +2437,7 @@ z-index: 2;
 
 
   .hr-section {
-    color: #2f80ed;
+    color: #407648;
     letter-spacing: 0.22px;
     text-align: center;
     margin-top: 80px;
@@ -2468,7 +2468,7 @@ z-index: 2;
   }
   .hr-title-2 {
     font-size: 4vw;
-    color: #2f80ed;
+    color: #407648;
     letter-spacing: 0.22px;
     text-align: center;
     margin-top: 129px;
@@ -2617,7 +2617,7 @@ z-index: 2;
   
   .hr-cta {
     border-radius: 24px;
-    background-color: #2f80ed;
+    background-color: #407648;
     align-self: flex-start;
     display: flex;
     margin-top: 10px;
@@ -2657,7 +2657,7 @@ z-index: 2;
   }
 
   .who-benefits-section {
-    color: #2f80ed;
+    color: #407648;
     letter-spacing: 0.22px;
     text-align: center;
     margin-top: 0px;
@@ -2692,7 +2692,7 @@ z-index: 2;
   }
   .who-benefits-title-2 {
     font-size: 4vw;
-    color: #2f80ed;
+    color: #407648;
     letter-spacing: 0.22px;
     text-align: center;
     margin-top: 129px;
@@ -2726,7 +2726,7 @@ z-index: 2;
   @media (max-width: 428px) {
     .who-benefits-title-2 {
       font-size: 4vw;
-    color: #2f80ed;
+    color: #407648;
     letter-spacing: 0.22px;
     text-align: center;
     margin-top: 129px;
@@ -2818,7 +2818,7 @@ z-index: 2;
   
   .who-benefits-button {
     border-radius: 24px;
-    background-color: #2f80ed;
+    background-color: #407648;
     display: flex;
     align-items: center;
     gap: 12px;
@@ -2916,7 +2916,7 @@ z-index: 2;
   
   .cta-button {
     border-radius: 24px;
-    background-color: #2f80ed;
+    background-color: #407648;
     display: flex;
     margin-top: 10px;
     align-items: center;
@@ -2959,7 +2959,7 @@ z-index: 2;
   }
   
   .clients-section {
-    color: #2f80ed;
+    color: #407648;
     text-align: center;
     margin-top: 72px;
     font: 700 20px/51px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
@@ -3029,7 +3029,7 @@ z-index: 2;
   
   .clients-cta {
     border-radius: 24px;
-    background-color: #2f80ed;
+    background-color: #407648;
     display: flex;
     margin-top: 32px;
     align-items: center;
@@ -3125,7 +3125,7 @@ z-index: 2;
   
   .demo-cta {
     border-radius: 24px;
-    background-color: #2f80ed;
+    background-color: #407648;
     align-self: center;
     display: flex;
     margin-top: 21px;
@@ -3211,7 +3211,7 @@ z-index: 2;
   }
   
   .footer-logo {
-    aspect-ratio: 4.03;
+    aspect-ratio: 2.03;
     object-fit: contain;
     object-position: center;
     width: 234px;
@@ -3237,14 +3237,14 @@ z-index: 2;
   }}
   
   .footer-column-title {
-    color: #2f80ed;
+    color: #407648;
     font-weight: 700;
     text-transform: uppercase;
     align-self: flex-start;
     padding-top: 10px;
   }
   .footer-column-title-2 {
-    color: #2f80ed;
+    color: #407648;
     font-weight: 700;
     text-transform: uppercase;
     align-self: flex-start;
@@ -3278,7 +3278,7 @@ z-index: 2;
   }
   
   .contact-title {
-    color: #2f80ed;
+    color: #407648;
     font-weight: 700;
   }
   
@@ -3309,7 +3309,7 @@ z-index: 2;
   }
   
   .footer-divider {
-    background-color: #2f80ed;
+    background-color: #407648;
     align-self: stretch;
     display: flex;
     min-height: 2px;
@@ -3326,7 +3326,7 @@ z-index: 2;
   
   .footer-copyright {
     background-blend-mode: normal;
-    color: #2f80ed;
+    color: #407648;
     font-size: 19px;
     font-weight: 700;
     line-height: 35px;
