@@ -932,7 +932,7 @@ z-index: 2;
 .video-wrapper {
     position: relative;
     width: 100%;
-    height: 120vh;
+    height: 132vh;
     overflow: hidden;
 }
 .video-wrapper-p {
@@ -1152,7 +1152,7 @@ z-index: 2;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    margin: -150px 0px;
+    margin: -95px 0px;
   }
   
   @media (max-width: 1440px) {
