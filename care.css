@@ -17,7 +17,7 @@ html,body{
 #main{
     position: relative;
     overflow: hidden;
-    background-color: #ffffff;
+    background-color: #232426;
     margin-top: -125px;
 }
 @media (max-width:1440px){
@@ -29,7 +29,7 @@ html,body{
     position: relative;
     height: 110vh;
     width: 100vw;
-    background-color: #ffffff;
+    background-color: #232426;
 }
 #page>nav{
     display: flex;
@@ -48,7 +48,7 @@ html,body{
     padding: 5px 15px;
     border-radius: 50px;
     border: none;
-    background-color: #fff;
+    background-color: #232426;
 }
 #page>nav>h3{
     font-weight: 100;
@@ -856,7 +856,7 @@ z-index: 2;
 
 
 .care-apps-home {
-    background-color: #f4f7ff;
+    background-color: #232426;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -1086,17 +1086,19 @@ z-index: 2;
   }
   
   .scrolled {
-    background-color: #ffffff; /* Solid color when scrolled */
+    background-color: #232426; /* Solid color when scrolled */
   }
   .nav-item {
     align-self: stretch;
     margin: auto 0;
+    color: #fff;
   }
   
   .nav-item-active {
     display: flex;
     align-items: center;
     gap: 8px;
+    color: #fff;
   }
   
   .nav-item-active::after {
@@ -1109,6 +1111,7 @@ z-index: 2;
     width: 11px;
     height: 12px;
     margin: auto 0;
+    color: #fff;
   }
   
   .login-button {
@@ -1275,10 +1278,10 @@ z-index: 2;
     }
   }
   .features-title {
-    color: #272d39;
+    color: #fff;
     text-align: center;
     width: 52vw;
-    font: 750 80px/92px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
+    font: 400 48px/92px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
   }
   
   @media (max-width: 1440px) {
@@ -1501,7 +1504,7 @@ z-index: 2;
   }
   
   .benefits-title {
-    color: #272d39;
+    color: #fff;
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
@@ -1526,6 +1529,7 @@ z-index: 2;
   }
   
   .benefits-description {
+    color: #fff;
     min-width: 240px;
     font-size: 24px;
     line-height: 46px;
