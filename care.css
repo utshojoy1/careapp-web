@@ -17,7 +17,7 @@ html,body{
 #main{
     position: relative;
     overflow: hidden;
-    background-color: #232426;
+    background-color: #232426;;
     margin-top: -125px;
 }
 @media (max-width:1440px){
@@ -29,7 +29,7 @@ html,body{
     position: relative;
     height: 110vh;
     width: 100vw;
-    background-color: #232426;
+    background-color: #232426;;
 }
 #page>nav{
     display: flex;
@@ -48,7 +48,7 @@ html,body{
     padding: 5px 15px;
     border-radius: 50px;
     border: none;
-    background-color: #232426;
+    background-color: #232426;;
 }
 #page>nav>h3{
     font-weight: 100;
@@ -87,7 +87,7 @@ html,body{
     position: relative;
     height: 180vh;
     width: 100vw;
-    background-color: #fff;
+    background-color: #232426;
 }
 @media(max-width: 428px) {
   #page1{
@@ -96,7 +96,7 @@ html,body{
 }}
 #page1 h1{
     font-size: 4vw;
-    color: #272d39;
+    color: #fff;
     letter-spacing: -1.2px;
     margin-top: 50px;
     width: 100vw;
@@ -184,7 +184,7 @@ html,body{
     position: relative;
     height: 50vh;
     width: 100vw;
-    background-color: #fff;
+    background-color: #232426;
     padding-top: 0vh;
 }
 
@@ -194,7 +194,7 @@ html,body{
 }}
 #page1-1 h1{
     font-size: 4vw;
-    color: #272d39;
+    color: #fff;
     letter-spacing: -1.2px;
     margin-top: 50px;
     width: auto;
@@ -214,7 +214,7 @@ html,body{
   position: relative;
   height: 180vh;
   width: 100vw;
-  background-color: #fff;
+  background-color: #232426;
 }
 @media(max-width: 428px) {
 #page2{
@@ -223,7 +223,7 @@ margin: 600px 0px;
 }}
 #page2 h1{
   font-size: 4vw;
-  color: #272d39;
+  color: #fff;
   letter-spacing: -1.2px;
   margin-top: 50px;
   width: 100vw;
@@ -305,7 +305,7 @@ z-index: 2;
   position: relative;
   height: 50vh;
   width: 100vw;
-  background-color: #fff;
+  background-color: #232426;
   padding-top: 4vh;
 }
 
@@ -315,7 +315,7 @@ z-index: 2;
 }}
 #page2-1 h1{
   font-size: 4vw;
-  color: #272d39;
+  color: #fff;
   letter-spacing: -1.2px;
   margin-top: 50px;
   width: auto;
@@ -335,7 +335,7 @@ z-index: 2;
   position: relative;
   height: 180vh;
   width: 100vw;
-  background-color: #fff;
+  background-color: #232426;
 }
 @media(max-width: 428px) {
 #page3{
@@ -344,7 +344,7 @@ z-index: 2;
 }}
 #page3 h1{
   font-size: 4vw;
-  color: #272d39;
+  color: #fff;
   letter-spacing: -1.2px;
   margin-top: 50px;
   width: 100vw;
@@ -425,7 +425,7 @@ z-index: 2;
   position: relative;
   height: 50vh;
   width: 100vw;
-  background-color: #fff;
+  background-color: #232426;
   padding-top: 0vh;
 }
 
@@ -437,7 +437,7 @@ z-index: 2;
 }}
 #page3-1 h1{
   font-size: 4vw;
-  color: #272d39;
+  color: #fff;
   letter-spacing: -1.2px;
   margin-top: 50px;
   width: auto;
@@ -458,7 +458,7 @@ z-index: 2;
   position: relative;
   height: 140vh;
   width: 100vw;
-  background-color: #fff;
+  background-color: #232426;
   margin-top: 1vh!important;
 }
 @media(max-width: 428px) {
@@ -468,7 +468,7 @@ margin: -10px 0px!important;
 }}
 #page4 h1{
   font-size: 4vw;
-  color: #272d39;
+  color: #fff;
   letter-spacing: -1.2px;
   margin-top: 50px;
   width: 100vw;
@@ -549,7 +549,7 @@ z-index: 2;
   position: relative;
   height: 40vh;
   width: 100vw;
-  background-color: #fff;
+  background-color: #232426;
   padding-top: 0vh;
   margin-top: -20vh;
 }
@@ -562,11 +562,11 @@ z-index: 2;
 #page4-1 {
   height: 63vh;
   margin-top: -36vh;
-  background-color: #fff;
+  background-color: #232426;
 }}
 #page4-1 h1{
   font-size: 4vw;
-  color: #272d39;
+  color: #fff;
   letter-spacing: -1.2px;
   margin-top: 50px;
   width: auto;
@@ -587,7 +587,7 @@ z-index: 2;
   position: relative;
   height: 140vh!important;;
   width: 100vw;
-  background-color: #fff;
+  background-color: #232426;
   margin-top: 1vh!important;
 }
 @media(max-width: 428px) {
@@ -597,7 +597,7 @@ margin: -10px 0px!important;
 }}
 #page5 h1{
   font-size: 4vw;
-  color: #272d39;
+  color: #fff;
   letter-spacing: -1.2px;
   margin-top: 50px;
   width: 100vw;
@@ -678,7 +678,7 @@ z-index: 2;
   position: relative;
   height: 45vh;
   width: 100vw;
-  background-color: #fff;
+  background-color: #232426;
   padding-top: 0vh;
   margin-top: -25vh;
 }
@@ -691,11 +691,11 @@ z-index: 2;
 #page4-1 {
   height: 63vh;
   margin-top: -36vh;
-  background-color: #fff;
+  background-color: #232426;
 }}
 #page5-1 h1{
   font-size: 4vw;
-  color: #272d39;
+  color: #fff;
   letter-spacing: -1.2px;
   margin-top: 50px;
   width: auto;
@@ -716,7 +716,7 @@ z-index: 2;
   position: relative;
   height: 140vh;
   width: 100vw;
-  background-color: #fff;
+  background-color: #232426;
   margin-top: 1vh!important;
 }
 @media(max-width: 428px) {
@@ -726,7 +726,7 @@ margin: -10px 0px!important;
 }}
 #page6 h1{
   font-size: 4vw;
-  color: #272d39;
+  color: #fff;
   letter-spacing: -1.2px;
   margin-top: 50px;
   width: 100vw;
@@ -807,7 +807,7 @@ z-index: 2;
   position: relative;
   height: 50vh;
   width: 100vw;
-  background-color: #fff;
+  background-color: #232426;
   padding-top: 0vh;
   margin-top: -5vh;
 }
@@ -820,11 +820,11 @@ z-index: 2;
 #page6-1 {
   height: 63vh;
   margin-top: -36vh;
-  background-color: #fff;
+  background-color: #232426;
 }}
 #page6-1 h1{
   font-size: 4vw;
-  color: #272d39;
+  color: #fff;
   letter-spacing: -1.2px;
   margin-top: 50px;
   width: auto;
@@ -856,13 +856,13 @@ z-index: 2;
 
 
 .care-apps-home {
-    background-color: #232426;
+    background-color: #232426;;
     display: flex;
     flex-direction: column;
     overflow: hidden;
     align-items: center;
     font-family: 'Avenir LT Std', sans-serif;
-    color: #272d39;
+    color: #fff;
   }
   @import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css";
   .navbar-fixed-top.scrolled {
@@ -1016,7 +1016,7 @@ z-index: 2;
     position: absolute;
     transform: translateX(0%);
     z-index: -1;
-    background-color: #fff;
+    background-color: #232426;
     
   }
   @media(max-width: 1440px){
@@ -1086,7 +1086,7 @@ z-index: 2;
   }
   
   .scrolled {
-    background-color: #232426; /* Solid color when scrolled */
+    background-color: #232426;; /* Solid color when scrolled */
   }
   .nav-item {
     align-self: stretch;
@@ -1103,7 +1103,7 @@ z-index: 2;
   
   .nav-item-active::after {
     content: '';
-    border-color: #272d39;
+    border-color: #fff;
     border-bottom-width: 2px;
     border-left-width: 2px;
     align-self: stretch;
@@ -1119,7 +1119,7 @@ z-index: 2;
     background-color: #407648;
     font-size: 16px;
     color: #fff;
-    font-weight: 600;
+    font-weight: 500;
     padding: 9px 27px;
   }
   a.nav-item.login-button {
@@ -1160,7 +1160,7 @@ z-index: 2;
   
   .hero-title {
     font-size: 84px;
-    color: #272d39;
+    color: #fff;
     font-weight: 900;
     line-height: 93px;
     text-align: center;
@@ -1230,7 +1230,7 @@ z-index: 2;
     gap: 12px;
     font-size: 15px;
     color: #fff;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1;
     justify-content: flex-start;
     padding: 14px 24px;
@@ -1404,7 +1404,7 @@ z-index: 2;
   
   .feature-card {
     border-radius: 4px;
-    background-color: #fff;
+    background-color: #232426;;
     display: flex;
     margin-top: 97px;
     padding-bottom: 13px;
@@ -1438,7 +1438,14 @@ z-index: 2;
       padding: 100px 20px;
     }
   }
-  
+  .thumbnail-background {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
   .feature-card-icon {
     aspect-ratio: 1;
     object-fit: contain;
@@ -1446,6 +1453,7 @@ z-index: 2;
     width: 67px;
     border-radius: 34px;
     margin-bottom: -20px;
+    z-index: 2;
   }
   
   @media (max-width: 991px) {
@@ -1455,7 +1463,7 @@ z-index: 2;
   }
   
   .feature-card-title {
-    color: #272d39;
+    color: #fff;
     text-align: center;
     margin-top: 15px;
     font: 400 20px/1.6 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
@@ -1481,14 +1489,28 @@ z-index: 2;
       margin-top: 40px;
     }
   }
+  .benefits-image-2 {
+    aspect-ratio: auto;
+    object-fit: none;
+    object-position: center;
+    width: 100%;
+    margin-top: -170px;
+    max-width: 1766px;
+  }
   
+  @media (max-width: 991px) {
+    .benefits-image-2 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
   .benefits-content {
     display: flex;
     margin-top: 84px;
     align-items: flex-start;
     gap: 40px 215px;
     font-family: 'Avenir LT Std', sans-serif;
-    color: #272d39;
+    color: #fff;
     font-weight: 700;
     letter-spacing: 0.13px;
     justify-content: flex-start;
@@ -1552,7 +1574,7 @@ z-index: 2;
   }
 
   .ai-section {
-    background-color: rgba(47, 128, 237, 0.06);
+    background-color: rgba(64, 118, 72, 0.06);
     color: #407648;
     letter-spacing: 0.22px;
     text-align: center;
@@ -1576,7 +1598,7 @@ z-index: 2;
   
   .ai-title {
     font-size: 4vw;
-    color: #272d39;
+    color: #fff;
     letter-spacing: -1.2px;
     margin-top: 50px;
     width: 80vw;
@@ -1683,7 +1705,7 @@ z-index: 2;
   }
   
   .ai-description-title {
-    color: #272d39;
+    color: #fff;
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
@@ -1729,7 +1751,7 @@ z-index: 2;
   }
   
   .ai-description-text {
-    color: #272d39;
+    color: #fff;
     font-size: 24px;
     font-weight: 700;
     line-height: 46px;
@@ -1758,7 +1780,7 @@ z-index: 2;
     gap: 12px;
     font-size: 15px;
     color: #fff;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1;
     justify-content: flex-start;
     padding: 14px 24px;
@@ -1864,7 +1886,7 @@ z-index: 2;
     font-family: 'Avenir LT Std', sans-serif;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: white;
+    background-color: #232426;
   }
   
   @media (max-width: 1440px) {
@@ -1881,7 +1903,7 @@ z-index: 2;
   }
   
   .medication-description-title {
-    color: #272d39;
+    color: #fff;
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
@@ -1929,7 +1951,7 @@ z-index: 2;
   }
   
   .medication-description-text {
-    color: #272d39;
+    color: #fff;
     font-size: 24px;
     font-weight: 700;
     line-height: 46px;
@@ -1958,7 +1980,7 @@ z-index: 2;
     gap: 12px;
     font-size: 15px;
     color: #fff;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1;
     justify-content: flex-start;
     padding: 14px 24px;
@@ -2013,7 +2035,7 @@ z-index: 2;
   
   .care-title {
     font-size: 4vw;
-      color: #272d39;
+      color: #fff;
       letter-spacing: -1.2px;
       margin-top: 50px;
       width: 80vw;
@@ -2080,7 +2102,7 @@ z-index: 2;
   }
   
   .care-content {
-    background-color: #e8f0fc;
+    background-color: rgba(64, 118, 72, 0.06);
     display: flex;
     padding-top: 70px;
     margin-top: 0px;
@@ -2108,7 +2130,7 @@ z-index: 2;
   }
   
   .care-description-title {
-    color: #272d39;
+    color: #fff;
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
@@ -2156,7 +2178,7 @@ z-index: 2;
   }
   
   .care-description-text {
-    color: #272d39;
+    color: #fff;
     font-size: 24px;
     font-weight: 700;
     line-height: 46px;
@@ -2186,7 +2208,7 @@ z-index: 2;
     gap: 12px;
     font-size: 15px;
     color: #fff;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1;
     justify-content: flex-start;
     padding: 14px 24px;
@@ -2235,7 +2257,7 @@ z-index: 2;
   
   .recruit-title {
     font-size: 4vw;
-      color: #272d39;
+      color: #fff;
       letter-spacing: -1.2px;
       margin-top: 50px;
       width: 80vw;
@@ -2331,7 +2353,7 @@ z-index: 2;
   }
   
   .recruit-description-title {
-    color: #272d39;
+    color: #fff;
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
@@ -2377,7 +2399,7 @@ z-index: 2;
   }
   
   .recruit-description-text {
-    color: #272d39;
+    color: #fff;
     font-size: 24px;
     font-weight: 700;
     line-height: 46px;
@@ -2407,7 +2429,7 @@ z-index: 2;
     gap: 12px;
     font-size: 15px;
     color: #fff;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1;
     justify-content: flex-start;
     padding: 14px 24px;
@@ -2459,7 +2481,7 @@ z-index: 2;
   
   .hr-title {
     font-size: 4vw;
-      color: #272d39;
+      color: #fff;
       letter-spacing: -1.2px;
       margin-top: 50px;
       width: 80vw;
@@ -2526,7 +2548,7 @@ z-index: 2;
   
   .hr-content {
     display: flex;
-    background-color: #e8f0fc;
+    background-color: rgba(64, 118, 72, 0.06);
     margin: 84px 0px 84px;
     align-items: flex-start;
     gap: 40px 236px;
@@ -2551,7 +2573,7 @@ z-index: 2;
   }
   
   .hr-description-title {
-    color: #272d39;
+    color: #fff;
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
@@ -2598,7 +2620,7 @@ z-index: 2;
   }
   
   .hr-description-text {
-    color: #272d39;
+    color: #fff;
     font-size: 24px;
     font-weight: 700;
     line-height: 46px;
@@ -2629,7 +2651,7 @@ z-index: 2;
     gap: 12px;
     font-size: 15px;
     color: #fff;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1;
     justify-content: flex-start;
     padding: 14px 24px;
@@ -2683,7 +2705,7 @@ z-index: 2;
   
   .who-benefits-title {
     font-size: 4vw;
-      color: #272d39;
+      color: #fff;
       letter-spacing: -1.2px;
       margin-top: 50px;
       width: 100vw;
@@ -2781,7 +2803,7 @@ z-index: 2;
   }
   
   .who-benefits-description {
-    color: #272d39;
+    color: #fff;
     font-size: 32px;
     font-weight: 700;
     line-height: 46px;
@@ -2813,7 +2835,7 @@ z-index: 2;
     align-items: flex-start;
     font-size: 15px;
     color: #fff;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1;
     justify-content: flex-start;
     width: 253px;
@@ -2860,7 +2882,7 @@ z-index: 2;
   }
   
   .cta-section {
-    background-color: #fff;
+    background-color: #232426;
     align-self: stretch;
     display: flex;
     margin-top: 0px;
@@ -2901,12 +2923,12 @@ z-index: 2;
     flex-direction: column;
     align-items: center;
     font-family: 'Avenir LT Std', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     justify-content: flex-start;
   }
   
   .cta-text {
-    color: #272d39;
+    color: #fff;
     font-size: 24px;
     line-height: 39px;
     text-align: center;
@@ -2976,7 +2998,7 @@ z-index: 2;
   }
   
   .clients-description {
-    color: #272d39;
+    color: #fff;
     text-align: center;
     margin-top: 12px;
     font: 700 30px/41px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
@@ -3063,7 +3085,7 @@ z-index: 2;
   }
   
   .demo-section {
-    background-color: #fff;
+    background-color: #232426;
     align-self: stretch;
     display: flex;
     width: 100%;
@@ -3079,7 +3101,7 @@ z-index: 2;
   }
   
   .demo-container {
-    background-color: rgba(47, 128, 237, 0.06);
+    background-color: rgba(64, 118, 72, 0.06);
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -3111,7 +3133,7 @@ z-index: 2;
   }
   
   .demo-title {
-    color: #272d39;
+    color: #fff;
     font-size: 48px;
     font-weight: 700;
     line-height: 62px;
@@ -3137,7 +3159,7 @@ z-index: 2;
     gap: 12px;
     font-size: 15px;
     color: #fff;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1;
     justify-content: flex-start;
     padding: 14px 24px;
@@ -3162,7 +3184,7 @@ z-index: 2;
   }
   
   .footer {
-    background-color: #fff;
+    background-color: #232426;
     align-self: stretch;
     display: flex;
     width: 100%;
@@ -3256,8 +3278,8 @@ z-index: 2;
   }
   
   .footer-column-content {
-    color: #525761;
-    font-weight: 600;
+    color: #ffffff;
+    font-weight: 500;
     margin-top: 27px;
     width: 200px;
   }
@@ -3277,8 +3299,8 @@ z-index: 2;
     max-width: 280px;
     flex-direction: column;
     align-items: flex-start;
-    color: #272d39;
-    font-weight: 600;
+    color: #fff;
+    font-weight: 500;
   }
   
   .contact-title {
