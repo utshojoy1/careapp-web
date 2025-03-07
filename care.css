@@ -856,7 +856,7 @@ z-index: 2;
 
 
 .care-apps-home {
-    background-color: #232426;;
+    background-color: #232426;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -873,6 +873,12 @@ z-index: 2;
   .navbar-fixed-top.scrolled .nav-link {
     color:#555;
   }
+  .offcanvas-header {
+    background-color: #232426;
+}
+.offcanvas-body {
+  background-color: #232426;
+}
   .hero-section {
     position: relative;
     min-height: 22vh;
