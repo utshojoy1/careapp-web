@@ -872,8 +872,18 @@ z-index: 2;
   .offcanvas-header {
     background-color: #232426ba;
 }
+@media (max-width: 991px) {
+  .offcanvas-header {
+    background-color: #232426;
+}
+}
 .offcanvas-body {
   background-color: #23242600;
+}
+@media (max-width: 991px) {
+  .offcanvas-body {
+    background-color: #232426;
+  }
 }
   .hero-section {
     position: relative;
