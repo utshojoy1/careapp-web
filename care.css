@@ -814,7 +814,7 @@ z-index: 2;
 
 @media (max-width: 1440px) {
   #page6-1 {
-    margin-top: -40vh;
+    margin-top: -9vh;
   }}
 @media (max-width: 428px) {
 #page6-1 {
@@ -874,10 +874,10 @@ z-index: 2;
     color:#555;
   }
   .offcanvas-header {
-    background-color: #232426;
+    background-color: #232426ba;
 }
 .offcanvas-body {
-  background-color: #232426;
+  background-color: #23242600;
 }
   .hero-section {
     position: relative;
