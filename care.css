@@ -17,14 +17,10 @@ html,body{
 #main{
     position: relative;
     overflow: hidden;
-    background-color: #232426;;
-    margin-top: -125px;
+    background-color: #232426;
+    margin-top: -240px;
 }
-@media (max-width:1440px){
-  #main{
-    margin-top: -85px;
-  }
-}
+
 #page{
     position: relative;
     height: 110vh;
