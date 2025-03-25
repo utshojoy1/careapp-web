@@ -18,8 +18,14 @@ html,body{
     position: relative;
     overflow: hidden;
     background-color: #232426;
-    margin-top: -240px;
+    margin-top: -202px;
+    height: 3020vh;
 }
+@media(max-width: 2061px) {
+  #main{
+  height: 3020vh;
+
+}}
 
 #page{
     position: relative;
@@ -3475,8 +3481,7 @@ z-index: 2;
     flex-direction: column;
     align-items: center;
     font-family: 'Avenir LT Std', sans-serif;
-    height: 100vh;
-    padding: 163px 55px 33px;
+    padding: 263px 55px 33px;
   }
   
   @media (max-width: 991px) {
