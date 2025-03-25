@@ -3475,7 +3475,8 @@ z-index: 2;
     flex-direction: column;
     align-items: center;
     font-family: 'Avenir LT Std', sans-serif;
-    padding: 163px 55px 130px;
+    height: 100vh;
+    padding: 163px 55px 33px;
   }
   
   @media (max-width: 991px) {
