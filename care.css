@@ -21,11 +21,12 @@ html,body{
     margin-top: -202px;
     height: 3020vh;
 }
-@media(max-width: 2061px) {
+@media(max-width: 1440px) {
   #main{
-  height: 3020vh;
-
-}}
+  margin-top: -240px;
+  height: 2875vh;
+}
+}
 
 #page{
     position: relative;
