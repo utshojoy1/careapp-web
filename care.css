@@ -18,7 +18,7 @@ html,body{
     position: relative;
     overflow: hidden;
     background-color: #232426;
-    margin-top: -202px;
+    margin-top: -210px;
     height: 3020vh;
 }
 @media(max-width: 1440px) {
