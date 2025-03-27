@@ -2998,8 +2998,8 @@ z-index: 2;
     padding: 14px 24px;
   }
   .cta-button:hover {
-    background-color: #3e8e41;
-    color: white;
+    background-color: white;
+    color: #2d5333;
   }
   a.cta-button {
     text-decoration: none;
