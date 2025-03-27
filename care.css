@@ -2253,6 +2253,10 @@ z-index: 2;
     justify-content: flex-start;
     padding: 14px 24px;
   }
+  .care-cta:hover {
+    background-color: #fff;
+    color: #407648;
+  }
   a.care-cta {
     text-decoration: none;
   }
@@ -2473,6 +2477,10 @@ z-index: 2;
     line-height: 1;
     justify-content: flex-start;
     padding: 14px 24px;
+  }
+  .recruit-cta:hover {
+    background-color: #fff;
+    color: #407648;
   }
   a.recruit-cta {
     text-decoration: none;
