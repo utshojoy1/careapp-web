@@ -18,8 +18,8 @@ html,body{
     position: relative;
     overflow: hidden;
     background-color: #232426;
-    margin-top: -210px;
-    height: 3020vh;
+    margin-top: -220px;
+    height: 3027vh;
 }
 @media(max-width: 1440px) {
   #main{
@@ -894,7 +894,7 @@ z-index: 2;
 }
   .hero-section {
     position: relative;
-    min-height: 22vh;
+    height: 24vh;
     width: 100%;
   }
   
@@ -3598,8 +3598,9 @@ z-index: 2;
     margin-top: 27px;
     width: 200px;
   }
-  .footer-column-content h6 {
+  .footer-column-content a {
     color: #ffffff;
+    text-decoration: none;
     font-weight: 500;
     width: 200px;
     height: 0.1vh;
