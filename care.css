@@ -1817,6 +1817,7 @@ z-index: 2;
     line-height: 1;
     justify-content: flex-start;
     padding: 14px 24px;
+    font: 600 15px/1 'Avenir LT Std', sans-serif;
   }
   .ai-cta:hover {
     background-color: #fff;
@@ -2892,6 +2893,7 @@ z-index: 2;
     justify-content: flex-start;
     width: 253px;
     margin: auto 70px;
+    font: 600 15px/1 'Avenir LT Std', sans-serif;
   }
   
   .who-benefits-button {
