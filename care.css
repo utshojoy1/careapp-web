@@ -2890,8 +2890,8 @@ z-index: 2;
     margin-bottom: 12px;
   }
   .who-benefits-button:hover {
-    background-color: #3e8e41;
-    color: white;
+    background-color: white;
+    color: #407648;
   }
   a.who-benefits-button {
     text-decoration: none;
@@ -2919,6 +2919,10 @@ z-index: 2;
     width: 20px;
     align-self: stretch;
     margin: auto 0;
+    color: #000;
+  }
+  .who-benefits-icon:hover {
+    color: #407648;
   }
   
   .cta-section {
