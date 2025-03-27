@@ -1818,8 +1818,8 @@ z-index: 2;
     padding: 14px 24px;
   }
   .ai-cta:hover {
-    background-color: #3e8e41;
-    color: white;
+    background-color: #fff;
+    color: #407648;
   }
   a.ai-cta {
     text-decoration: none;
