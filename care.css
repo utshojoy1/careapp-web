@@ -3238,6 +3238,11 @@ z-index: 2;
     padding: 14px 24px;
     font: 600 15px/1 'Avenir LT Std', sans-serif;
   }
+  .demo-cta:hover {
+    background-color: #fff;
+    color: #407648;
+
+  }
   a.demo-cta {
     text-decoration: none;
 }
