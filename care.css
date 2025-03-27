@@ -2022,8 +2022,8 @@ z-index: 2;
     padding: 14px 24px;
   }  
   .medication-cta:hover {
-    background-color: #3e8e41;
-    color: white;
+    background-color: #fff;
+    color: #3e8e41;
   }
   a.medication-cta {
     text-decoration: none;
@@ -3597,6 +3597,12 @@ z-index: 2;
     font-weight: 500;
     margin-top: 27px;
     width: 200px;
+  }
+  .footer-column-content h6 {
+    color: #ffffff;
+    font-weight: 500;
+    width: 200px;
+    height: 0.1vh;
   }
   
   .footer-contact {
