@@ -1267,6 +1267,7 @@ z-index: 2;
     justify-content: flex-start;
     padding: 14px 24px;
     z-index: 1;
+    font: 600 15px/1 'Avenir LT Std', sans-serif;
   }
   
   @media (max-width: 991px) {
@@ -2020,6 +2021,7 @@ z-index: 2;
     line-height: 1;
     justify-content: flex-start;
     padding: 14px 24px;
+    font: 600 15px/1 'Avenir LT Std', sans-serif;
   }  
   .medication-cta:hover {
     background-color: #fff;
@@ -2252,6 +2254,7 @@ z-index: 2;
     line-height: 1;
     justify-content: flex-start;
     padding: 14px 24px;
+    font: 600 15px/1 'Avenir LT Std', sans-serif;
   }
   .care-cta:hover {
     background-color: #fff;
@@ -2477,6 +2480,7 @@ z-index: 2;
     line-height: 1;
     justify-content: flex-start;
     padding: 14px 24px;
+    font: 600 15px/1 'Avenir LT Std', sans-serif;
   }
   .recruit-cta:hover {
     background-color: #fff;
@@ -2947,6 +2951,7 @@ z-index: 2;
     align-items: center;
     justify-content: center;
     padding: 130px 80px;
+    font: 600 15px/1 'Avenir LT Std', sans-serif;
   }
   
   @media (max-width: 991px) {
@@ -3008,6 +3013,7 @@ z-index: 2;
     line-height: 1;
     justify-content: flex-start;
     padding: 14px 24px;
+    font: 600 15px/1 'Avenir LT Std', sans-serif;
   }
   .cta-button:hover {
     background-color: white;
@@ -3125,6 +3131,11 @@ z-index: 2;
     padding: 14px 24px;
     font: 600 15px/1 'Avenir LT Std', sans-serif;
   }
+  .clients-cta:hover{
+    background-color: #fff;
+    color: #407648;
+  }
+  
   a.clients-cta {
     text-decoration: none;
 }
@@ -3223,6 +3234,7 @@ z-index: 2;
     line-height: 1;
     justify-content: flex-start;
     padding: 14px 24px;
+    font: 600 15px/1 'Avenir LT Std', sans-serif;
   }
   a.demo-cta {
     text-decoration: none;
