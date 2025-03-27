@@ -1813,6 +1813,10 @@ z-index: 2;
     justify-content: flex-start;
     padding: 14px 24px;
   }
+  .ai-cta:hover {
+    background-color: #3e8e41;
+    color: white;
+  }
   a.ai-cta {
     text-decoration: none;
   }
@@ -2012,6 +2016,10 @@ z-index: 2;
     line-height: 1;
     justify-content: flex-start;
     padding: 14px 24px;
+  }
+  .medication-cta:hover {
+    background-color: #3e8e41;
+    color: white;
   }
   a.medication-cta {
     text-decoration: none;
@@ -2881,6 +2889,10 @@ z-index: 2;
     padding: 14px 24px;
     margin-bottom: 12px;
   }
+  .who-benefits-button:hover {
+    background-color: #3e8e41;
+    color: white;
+  }
   a.who-benefits-button {
     text-decoration: none;
     color: #ffff;
@@ -2980,6 +2992,10 @@ z-index: 2;
     line-height: 1;
     justify-content: flex-start;
     padding: 14px 24px;
+  }
+  .cta-button:hover {
+    background-color: #3e8e41;
+    color: white;
   }
   a.cta-button {
     text-decoration: none;
