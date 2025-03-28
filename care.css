@@ -24,7 +24,7 @@ html,body{
 @media(max-width: 1440px) {
   #main{
   margin-top: -240px;
-  height: 2875vh;
+  height: auto;
 }
 }
 
