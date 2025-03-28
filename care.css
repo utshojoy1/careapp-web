@@ -1314,7 +1314,7 @@ z-index: 2;
     color: #fff;
     text-align: center;
     width: 52vw;
-    font: 400 48px/92px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
+    font: 750 45px/92px 'Avenir LT Std', -apple-system, Roboto, Helvetica, sans-serif;
   }
   
   @media (max-width: 1440px) {
@@ -1339,7 +1339,7 @@ z-index: 2;
   .features-content {
     align-self: end;
     z-index: 10;
-    margin-top: -100px;
+    margin-top: -50px;
     width: 1279px;
     max-width: 100%;
   }
