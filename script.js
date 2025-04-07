@@ -1,25 +1,25 @@
 function loco(){
-    gsap.registerPlugin(ScrollTrigger);
+  gsap.registerPlugin(ScrollTrigger);
 
 // Using Locomotive Scroll from Locomotive https://github.com/locomotivemtl/locomotive-scroll
 
 const locoScroll = new LocomotiveScroll({
-  el: document.querySelector("#main"),
-  smooth: true
+el: document.querySelector("#main"),
+smooth: true
 });
 // each time Locomotive Scroll updates, tell ScrollTrigger to update too (sync positioning)
 locoScroll.on("scroll", ScrollTrigger.update);
 
 // tell ScrollTrigger to use these proxy methods for the "#main" element since Locomotive Scroll is hijacking things
 ScrollTrigger.scrollerProxy("#main", {
-  scrollTop(value) {
-    return arguments.length ? locoScroll.scrollTo(value, 0, 0) : locoScroll.scroll.instance.scroll.y;
-  }, // we don't have to define a scrollLeft because we're only scrolling vertically.
-  getBoundingClientRect() {
-    return {top: 0, left: 0, width: window.innerWidth, height: window.innerHeight};
-  },
-  // LocomotiveScroll handles things completely differently on mobile devices - it doesn't even transform the container at all! So to get the correct behavior and avoid jitters, we should pin things with position: fixed on mobile. We sense it by checking to see if there's a transform applied to the container (the LocomotiveScroll-controlled element).
-  pinType: document.querySelector("#main").style.transform ? "transform" : "fixed"
+scrollTop(value) {
+  return arguments.length ? locoScroll.scrollTo(value, 0, 0) : locoScroll.scroll.instance.scroll.y;
+}, // we don't have to define a scrollLeft because we're only scrolling vertically.
+getBoundingClientRect() {
+  return {top: 0, left: 0, width: window.innerWidth, height: window.innerHeight};
+},
+// LocomotiveScroll handles things completely differently on mobile devices - it doesn't even transform the container at all! So to get the correct behavior and avoid jitters, we should pin things with position: fixed on mobile. We sense it by checking to see if there's a transform applied to the container (the LocomotiveScroll-controlled element).
+pinType: document.querySelector("#main").style.transform ? "transform" : "fixed"
 });
 
 // each time the window updates, we should refresh ScrollTrigger and then update LocomotiveScroll. 
@@ -31,103 +31,103 @@ ScrollTrigger.refresh();
 }
 loco();
 var tl1 = gsap.timeline({
-  scrollTrigger:{
-    trigger:"#page1",
-    scroller:"#main",
-    //markers:true,
-    pin:true,
-    start:"top top",
-    scrub:5
-  }
+scrollTrigger:{
+  trigger:"#page1",
+  scroller:"#main",
+  //markers:true,
+  pin:true,
+  start:"top top",
+  scrub:5
+}
 })
 tl1.to("#page1>#center-page1",{
-  top:"-50%"
+top:"-50%"
 })
 var tl2 = gsap.timeline({
-  scrollTrigger:{
-    trigger:"#page2",
-    scroller:"#main",
-    // markers:true,
-    pin:true,
-    start:"top top",
-    scrub:5
-  }
+scrollTrigger:{
+  trigger:"#page2",
+  scroller:"#main",
+  // markers:true,
+  pin:true,
+  start:"top top",
+  scrub:5
+}
 })
 tl2.to("#page2>#center-page2",{
-  top:"-50%"
+top:"-50%"
 })
 var tl3 = gsap.timeline({
-  scrollTrigger:{
-    trigger:"#page3",
-    scroller:"#main",
-    // markers:true,
-    pin:true,
-    start:"top top",
-    scrub:5
-  }
+scrollTrigger:{
+  trigger:"#page3",
+  scroller:"#main",
+  // markers:true,
+  pin:true,
+  start:"top top",
+  scrub:5
+}
 })
 tl3.to("#page3>#center-page3",{
-  top:"-50%"
+top:"-50%"
 })
 
 var tl4 = gsap.timeline({
-  scrollTrigger:{
-    trigger:"#page4",
-    scroller:"#main",
-    // markers:true,
-    pin:true,
-    start:"top top",
-    scrub:5
-  }
+scrollTrigger:{
+  trigger:"#page4",
+  scroller:"#main",
+  // markers:true,
+  pin:true,
+  start:"top top",
+  scrub:5
+}
 })
 tl4.to("#page4>#center-page4",{
-  top:"-50%"
+top:"-50%"
 })
 /*var tl4 = gsap.timeline({  
-  scrollTrigger:{
-    trigger:"#page4",
-    scroller:"#main",
-    //markers:true,
-    pin:true,
-    start:"top top",
-    end: "bottom bottom",
-    scrub:1
-  }
+scrollTrigger:{
+  trigger:"#page4",
+  scroller:"#main",
+  //markers:true,
+  pin:true,
+  start:"top top",
+  end: "bottom bottom",
+  scrub:1
+}
 })
 tl4.to(".recruit-section>h3",{
-  top:"-5%",
-  
+top:"-5%",
+
 })
 tl4.to(".recruit-section>h2",{
-  top:"8%",
-  
+top:"8%",
+
 })*/
 var tl5 = gsap.timeline({
-  scrollTrigger:{
-    trigger:"#page5",
-    scroller:"#main",
-    // markers:true,
-    pin:true,
-    start:"top top",
-    scrub:5
-  }
+scrollTrigger:{
+  trigger:"#page5",
+  scroller:"#main",
+  // markers:true,
+  pin:true,
+  start:"top top",
+  scrub:5
+}
 })
 tl5.to("#page5>#center-page5",{
-  top:"-50%"
+top:"-50%"
 })
 
 var tl6 = gsap.timeline({
-  scrollTrigger:{
-    trigger:"#page6",
-    scroller:"#main",
-    // markers:true,
-    pin:true,
-    start:"top top",
-    scrub:5
-  }
+scrollTrigger:{
+  trigger:"#page6",
+  scroller:"#main",
+  // markers:true,
+  pin:true,
+  start:"top top",
+  scrub:5
+}
 })
 tl6.to("#page6>#center-page6",{
-  top:"-50%"
+top:"-50%"
 })
 
 
@@ -369,12 +369,12 @@ frame: frameCount - 1,
 snap: "frame",
 ease: `none`,
 scrollTrigger: {
-  scrub: 0.15,
-  trigger: `canvas`,
-  //   set start end according to preference
-  start: `top top`,
-  end: `600% top`,
-  scroller: `#main`,
+scrub: 0.15,
+trigger: `canvas`,
+//   set start end according to preference
+start: `top top`,
+end: `600% top`,
+scroller: `#main`,
 },
 onUpdate: render,
 });
@@ -394,15 +394,15 @@ var centerShift_x = (canvas.width - img.width * ratio) / 2;
 var centerShift_y = (canvas.height - img.height * ratio) / 2;
 ctx.clearRect(0, 0, canvas.width, canvas.height);
 ctx.drawImage(
-  img,
-  0,
-  0,
-  img.width,
-  img.height,
-  centerShift_x,
-  centerShift_y,
-  img.width * ratio,
-  img.height * ratio
+img,
+0,
+0,
+img.width,
+img.height,
+centerShift_x,
+centerShift_y,
+img.width * ratio,
+img.height * ratio
 );
 }
 ScrollTrigger.create({
@@ -482,12 +482,12 @@ frame: frameCount - 1,
 snap: "frame",
 ease: `none`,
 scrollTrigger: {
-  scrub: 0.15,
-  trigger: `#page18`,
-  //   set start end according to preference
-  start: `top top`,
-  end: `80% top`,
-  scroller: `#main`,
+scrub: 0.15,
+trigger: `#page18`,
+//   set start end according to preference
+start: `top top`,
+end: `80% top`,
+scroller: `#main`,
 },
 onUpdate: render,
 });
@@ -507,15 +507,15 @@ var centerShift_x = (canvas.width - img.width * ratio) / 2;
 var centerShift_y = (canvas.height - img.height * ratio) / 2;
 ctx.clearRect(0, 0, canvas.width, canvas.height);
 ctx.drawImage(
-  img,
-  0,
-  0,
-  img.width,
-  img.height,
-  centerShift_x,
-  centerShift_y,
-  img.width * ratio,
-  img.height * ratio
+img,
+0,
+0,
+img.width,
+img.height,
+centerShift_x,
+centerShift_y,
+img.width * ratio,
+img.height * ratio
 );
 }
 ScrollTrigger.create({
@@ -533,16 +533,204 @@ canvas1();
 
 
 tl5.to("#page23>#snroff",{
-  opacity:0
+opacity:0
 })
-  
+
 gsap.to("#page25>img",{
-  scrollTrigger:{
-    trigger:`#page23>img`,
-    start:`top bottom`,
-    end:`bottom 60%`,
-    scrub:.5,
-    scroller:`#main`
-  },
-  opacity:1
+scrollTrigger:{
+  trigger:`#page23>img`,
+  start:`top bottom`,
+  end:`bottom 60%`,
+  scrub:.5,
+  scroller:`#main`
+},
+opacity:1
 })
+//animate circle//
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Content data for different icons
+  const contentData = [
+      {
+          title: "AI-Powered Analytics",
+          description: "Leverage advanced AI algorithms to analyze your data and gain valuable insights for your business.",
+          image: "/placeholder.svg?height=400&width=200&text=Analytics"
+      },
+      {
+          title: "Smart Automation",
+          description: "Automate repetitive tasks and workflows with our intelligent automation platform.",
+          image: "/placeholder.svg?height=400&width=200&text=Automation"
+      },
+      {
+          title: "Predictive Intelligence",
+          description: "Forecast trends and make data-driven decisions with our predictive AI models.",
+          image: "/placeholder.svg?height=400&width=200&text=Prediction"
+      },
+      {
+          title: "Natural Language Processing",
+          description: "Understand and analyze human language with our advanced NLP capabilities.",
+          image: "/placeholder.svg?height=400&width=200&text=NLP"
+      },
+      {
+          title: "Computer Vision",
+          description: "Process and analyze visual information using our state-of-the-art computer vision technology.",
+          image: "/placeholder.svg?height=400&width=200&text=Vision"
+      },
+      {
+          title: "Machine Learning Models",
+          description: "Build and deploy custom machine learning models tailored to your specific needs.",
+          image: "/placeholder.svg?height=400&width=200&text=ML"
+      },
+      {
+          title: "Data Visualization",
+          description: "Transform complex data into intuitive visualizations for better understanding and decision-making.",
+          image: "/placeholder.svg?height=400&width=200&text=Visualization"
+      },
+      {
+          title: "AI Integration",
+          description: "Seamlessly integrate AI capabilities into your existing systems and workflows.",
+          image: "/placeholder.svg?height=400&width=200&text=Integration"
+      }
+  ];
+
+  // Get content containers
+  const videoContentLeft = document.getElementById('video-content-left');
+  const videoContentRight = document.getElementById('video-content-right');
+  
+  // Get content elements
+  const contentTitleLeft = document.getElementById('content-title-left');
+  const contentDescriptionLeft = document.getElementById('content-description-left');
+  const previewImageLeft = document.getElementById('preview-image-left');
+  
+  const contentTitleRight = document.getElementById('content-title-right');
+  const contentDescriptionRight = document.getElementById('content-description-right');
+  const previewImageRight = document.getElementById('preview-image-right');
+
+  // Generate the cloud of icons around the AI logo
+  const iconCloud = document.getElementById('icon-cloud');
+  const totalIcons = 24; // Reduced number for better visibility
+  const radius = 220; // Radius of the circle
+  const centerX = 300; // Center X coordinate
+  const centerY = 300; // Center Y coordinate
+  
+  // Create icons and position them in a circle
+  for (let i = 0; i < totalIcons; i++) {
+      // Calculate position on the circle
+      const angle = (i / totalIcons) * 2 * Math.PI;
+      const x = centerX + radius * Math.cos(angle);
+      const y = centerY + radius * Math.sin(angle);
+      
+      // Create icon element
+      const icon = document.createElement('div');
+      icon.className = 'icon';
+      icon.dataset.index = i % contentData.length; // Assign data index for content mapping
+      
+      // Determine if icon is on left or right side
+      const isRightSide = x > centerX;
+      icon.dataset.side = isRightSide ? 'right' : 'left';
+      
+      // Position the icon
+      icon.style.left = `${x - 25}px`; // 25px is half the icon width
+      icon.style.top = `${y - 25}px`; // 25px is half the icon height
+      
+      iconCloud.appendChild(icon);
+  }
+  
+  // Add animation and hover events to icons
+  const icons = document.querySelectorAll('.icon');
+  icons.forEach((icon, index) => {
+      // Add subtle floating animation with random delays
+      icon.style.animation = `float 3s ease-in-out ${index * 0.1}s infinite alternate`;
+      
+      // Add hover events
+      icon.addEventListener('mouseenter', function() {
+          const contentIndex = parseInt(this.dataset.index);
+          const side = this.dataset.side;
+          
+          // Update content based on side
+          if (side === 'left') {
+              contentTitleLeft.textContent = contentData[contentIndex].title;
+              contentDescriptionLeft.textContent = contentData[contentIndex].description;
+              previewImageLeft.src = contentData[contentIndex].image;
+              videoContentLeft.classList.add('active');
+              videoContentRight.classList.remove('active');
+          } else {
+              contentTitleRight.textContent = contentData[contentIndex].title;
+              contentDescriptionRight.textContent = contentData[contentIndex].description;
+              previewImageRight.src = contentData[contentIndex].image;
+              videoContentRight.classList.add('active');
+              videoContentLeft.classList.remove('active');
+          }
+      });
+      
+      icon.addEventListener('mouseleave', function() {
+          // Hide content after a short delay to prevent flickering
+          setTimeout(() => {
+              // Only hide if not hovering over any icon
+              if (!document.querySelector('.icon:hover')) {
+                  videoContentLeft.classList.remove('active');
+                  videoContentRight.classList.remove('active');
+              }
+          }, 100);
+      });
+  });
+  
+  // Add keyframes for floating animation
+  const style = document.createElement('style');
+  style.textContent = `
+      @keyframes float {
+          0% { transform: translateY(0) scale(1); }
+          100% { transform: translateY(-10px) scale(1.05); }
+      }
+  `;
+  document.head.appendChild(style);
+  
+  // Mobile menu toggle
+  const mobileMenuButton = document.querySelector('.mobile-menu-button');
+  const nav = document.querySelector('nav ul');
+  
+  mobileMenuButton.addEventListener('click', function() {
+      nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
+      if (nav.style.display === 'flex') {
+          nav.style.flexDirection = 'column';
+          nav.style.position = 'absolute';
+          nav.style.top = '80px';
+          nav.style.right = '20px';
+          nav.style.backgroundColor = '#fff';
+          nav.style.padding = '20px';
+          nav.style.boxShadow = '0 4px 10px rgba(0, 0, 0, 0.1)';
+          nav.style.borderRadius = '5px';
+          nav.style.zIndex = '10';
+          
+          const navItems = document.querySelectorAll('nav ul li');
+          navItems.forEach(item => {
+              item.style.margin = '10px 0';
+          });
+      }
+  });
+  
+  // Close mobile menu when clicking outside
+  document.addEventListener('click', function(event) {
+      if (!event.target.closest('nav') && !event.target.closest('.mobile-menu-button')) {
+          nav.style.display = 'none';
+      }
+  });
+  
+  // Handle content containers on mobile
+  if (window.innerWidth <= 992) {
+      // For mobile, we'll show content in the center
+      videoContentLeft.style.position = 'fixed';
+      videoContentRight.style.position = 'fixed';
+  }
+  
+  // Update positions on window resize
+  window.addEventListener('resize', function() {
+      if (window.innerWidth <= 992) {
+          videoContentLeft.style.position = 'fixed';
+          videoContentRight.style.position = 'fixed';
+      } else {
+          videoContentLeft.style.position = 'absolute';
+          videoContentRight.style.position = 'absolute';
+      }
+  });
+});
