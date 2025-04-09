@@ -18,19 +18,31 @@ html,body{
   position: relative;
   overflow: hidden;
   background-color: #232426;
-  margin-top: -311px;
+  margin-top: -317px;
   height: auto;
 }
 
 @media(max-width: 1980px) {
 #main{
-margin-top: -260px;
+margin-top: -280px;
 height: auto;
+}
+}
+@media(max-width: 1960px) {
+  #main{
+  margin-top: -265px;
+  height: auto;
+}
+}
+@media(max-width: 1920px) {
+  #main{
+  margin-top: -222px;
+  height: auto;
 }
 }
 @media(max-width: 1880px) {
   #main{
-  margin-top: -240px;
+  margin-top: -210px;
   height: auto;
 }
 }
@@ -365,7 +377,7 @@ margin: 0px 0px !important;
 
 }}
 #page3 h1{
-font-size: 4vw;
+font-size: 4vw !important;
 color: #fff;
 letter-spacing: -1.2px;
 margin-top: 50px;
@@ -481,7 +493,12 @@ position: relative;
 height: 140vh;
 width: 100vw;
 background-color: #232426;
+margin-top: -14vh!important;
+}
+@media(max-width: 1920px) {
+#page4{
 margin-top: 1vh!important;
+}
 }
 @media(max-width: 428px) {
 #page4{
@@ -827,13 +844,16 @@ z-index: 2;
 }
 #page6-1{
 position: relative;
-height: 26vh;
+height: 30vh;
 width: 100vw;
 background-color: #232426;
 padding-top: 0vh;
 margin-top: -31vh;
 }
-
+@media (max-width: 1920px) {
+#page6-1 {
+  height: 55vh;
+}}
 @media (max-width: 1440px) {
 #page6-1 {
   margin-top: -9vh;
@@ -2427,7 +2447,7 @@ a.medication-cta {
   font-family: 'Avenir LT Std', sans-serif;
   justify-content: center;
   flex-wrap: wrap;
-  padding-bottom: 13vh;
+  padding-bottom: 15vh;
 }
 
 @media (max-width: 1440px) {
@@ -3489,7 +3509,11 @@ a.clients-cta {
   overflow: hidden;
   font-family: 'Avenir LT Std', sans-serif;
 }
-
+@media (max-width: 1920px) {
+  .demo-section {
+    height: 70vh;
+  }
+}
 @media (max-width: 991px) {
   .demo-section {
     max-width: 100%;
@@ -3588,10 +3612,16 @@ a.demo-cta {
   background-color: rgba(64, 118, 72, 0.06);
   width: 100%;
   display: flex;
-  margin-top: 17px;
-  padding-bottom: 171px;
+  margin-top: 8px;
+  padding-bottom: 245px;
   flex-direction: column;
   align-items: center;
+}
+@media (max-width: 1920px) {
+  .services-section {
+  margin-top: 80px;
+  
+}
 }
 
 .services-header {
@@ -3600,18 +3630,123 @@ a.demo-cta {
   width: 172%;
   height: 22vh;
 }
+@media (max-width: 1920px) {
+  .services-header {
+    height: 30vh;
+  
+}
+}
 
 .services-columns {
   display: flex;
   gap: 20px;
 }
+/* Team Grid Container */
+.team-grid {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 16px;
+flex-wrap: wrap;
+max-width: 2401px;
+height: 100vh;
+margin: 0 auto;
+padding: 20px;
+}
 
+/* Responsive adjustments for team grid */
+@media (max-width: 991px) {
+.team-grid {
+  gap: 32px;
+}
+}
+
+@media (max-width: 640px) {
+.team-grid {
+  gap: 24px;
+}
+}
+
+/* Team Card Component */
+.team-card {
+display: flex;
+flex-direction: column;
+width: 344px;
+position: relative;
+overflow: hidden;
+}
+.bg-blur {
+filter: blur(8px);
+}
+/* Team Image Container */
+.team-image-container {
+width: 344px;
+height: 488px;
+}
+
+@media (max-width: 640px) {
+.team-image-container {
+  width: 100%;
+}
+}
+
+/* Team Image */
+.team-image {
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 12px;
+}
+
+/* Team Info Box */
+.team-info {
+display: flex;
+flex-direction: column;
+padding: 16px 24px;
+gap: 16px;
+border-radius: 12px;
+position: relative;
+width: 312px;
+left: 16px;
+bottom: 77px;
+background-color: #f8f8f896;
+}
+.team-info:hover {
+background-color: #407648;
+color: #fff;
+}
+
+@media (max-width: 640px) {
+.team-info {
+  width: calc(100% - 32px);
+}
+}
+
+/* Team Details Container */
+.team-details {
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+
+/* Team Member Name */
+.team-info h2 {
+color: #407648;
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+height: 20px;
+}
+.team-info h2:hover {
+color: #fff;
+}
 .column {
   display: flex;
   flex-direction: column;
   align-items: stretch;
   line-height: normal;
   width: 30%;
+  margin-top: 13vh;
 }
 
 .left-image-column {
@@ -3632,7 +3767,7 @@ a.demo-cta {
 
 .title-container {
   display: flex;
-  margin-top: 135px;
+  margin-top: 35px;
   margin-right: -339px;
   flex-direction: column;
   align-items: stretch;
@@ -3704,6 +3839,12 @@ a.demo-cta {
   align-items: center;
   font-family: 'Avenir LT Std', sans-serif;
   padding: 250px 55px 33px;
+}
+
+@media (max-width: 1920px) {
+  .footer {
+    padding: 180px 55px 33px;
+  }
 }
 
 @media (max-width: 991px) {
