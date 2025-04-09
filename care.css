@@ -3703,7 +3703,7 @@ a.demo-cta {
   flex-direction: column;
   align-items: center;
   font-family: 'Avenir LT Std', sans-serif;
-  padding: 190px 55px 33px;
+  padding: 250px 55px 33px;
 }
 
 @media (max-width: 991px) {
